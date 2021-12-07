@@ -13,6 +13,9 @@ def main():
         cost.append(0)
         for x in xs:
             cost[-1] += abs(x-p)
+    fig, ax = plt.subplots()
+    ax.plot(range(minx, maxx+1), cost)
+    plt.show()
     print(cost)
     print(min(cost))
 

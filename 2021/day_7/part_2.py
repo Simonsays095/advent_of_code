@@ -14,6 +14,9 @@ def main():
         for x in xs:
             diff = abs(x-p)
             cost[-1] += diff*(diff+1)/2
+    fig, ax = plt.subplots()
+    ax.plot(range(minx, maxx+1), cost)
+    plt.show()
     print(cost)
     print(min(cost))
 
