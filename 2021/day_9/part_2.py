@@ -1,7 +1,7 @@
 from __future__ import annotations  # type-hinting Basin in merge_with
 import numpy as np
 import matplotlib.pyplot as plt
-
+import PIL
 
 class Point:
     def __init__(self, x, y, height):
@@ -90,14 +90,31 @@ def main():
     print(basins[0].size * basins[1].size * basins[2].size)
 
     image = np.zeros_like(points, dtype=np.int64)
+    gradient = np.zeros((height, width, 2), dtype=np.float64)
     for row in points:
         for pt in row:
+            if pt.x == 0 or pt.x == width-1 or pt.y == 0 or pt.y == height-1: continue
             if pt.basin is None:
                 image[pt.y][pt.x] = 0
             else:
                 image[pt.y][pt.x] = pt.basin.size
-    fig, ax = plt.subplots()
-    ax.imshow(image)
+            plusx = points[pt.y][pt.x+1]
+            plusy = points[pt.y+1][pt.x]
+            gradient[pt.y, pt.x] = [plusy.height-pt.height, plusx.height-pt.height]
+    fig, (ax1, ax2, ax3) = plt.subplots(1,3)
+    ax1.imshow(inp)
+    ax1.set_title("Height")
+    ax2.imshow(image)
+    ax2.set_title("Size")
+    h = image/image.max()*360*0.4
+    v = 10-np.asarray(inp, dtype=np.float64)
+    v *= 255/v.max()
+    s= np.full_like(image, 255)
+    rgb = np.dstack((h,s,v)).astype(np.uint8)
+    print(rgb)
+    combined = PIL.Image.fromarray(rgb, mode="HSV")
+    ax3.imshow(combined)
+    ax3.set_title("Height+Size")
     plt.show()
 
 
