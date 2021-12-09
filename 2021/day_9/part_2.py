@@ -1,0 +1,105 @@
+from __future__ import annotations  # type-hinting Basin in merge_with
+import numpy as np
+import matplotlib.pyplot as plt
+
+
+class Point:
+    def __init__(self, x, y, height):
+        self.x = x
+        self.y = y
+        self.height = height
+        self.basin = None
+
+
+class Basin:
+    def __init__(self, idx):
+        self.points = []
+        self.size = 0
+        self.idx = idx
+
+    def merge_with(self, other: Basin):
+        self.size += other.size
+        self.points.extend(other.points)
+        for point in other.points:
+            point.basin = self
+
+
+def get_basins(points):
+    basins = []
+    for row in points:
+        for pt in row:
+            if pt.basin is not None and pt.basin not in basins:
+                basins.append(pt.basin)
+    return basins
+
+def main():
+    with open("input", 'r') as f:
+        inp = f.read().splitlines()
+    width = len(inp[0])
+    height = len(inp)
+    # Add boundaries as higher spots
+    for idx, row in enumerate(inp):
+        row = [int(char) for char in row]
+        row.insert(0, 10)
+        row.append(10)
+        inp[idx] = row
+    width += 2
+    height += 2
+    inp.insert(0, [10]*width)
+    inp.append([10]*width)
+    
+    # Add all points to their own basin
+    points = []
+    basin_idx = 0
+    for y, row in enumerate(inp):
+        points.append([])
+        for x, h in enumerate(row):
+            pt = Point(x, y, h)
+            if h < 9:
+                basin = Basin(basin_idx)
+                basin_idx += 1
+                # Point basin and point to each other
+                basin.points.append(pt)
+                pt.basin = basin
+                basin.size = 1
+            points[-1].append(pt)
+    basins = get_basins(points)
+    prev_basin_num = len(basins)
+    while True:
+        print(len(basins), "basins")
+        for y, row in enumerate(points):
+            if y == 0 or y == height-1: continue
+            for x, pt in enumerate(row):
+                if x == 0 or x == width-1: continue
+                if pt.basin is None: continue
+                left = points[pt.y][pt.x-1]
+                right = points[pt.y][pt.x+1]
+                up = points[pt.y-1][pt.x]
+                down = points[pt.y+1][pt.x]
+                for other in [left, right, up, down]:
+                    if other.basin is not None and other.basin != pt.basin:
+                        pt.basin.merge_with(other.basin)
+        basins = get_basins(points)
+        if len(basins) == prev_basin_num:
+            break
+        prev_basin_num = len(basins)
+    print("These are all unique basins")
+    print([basin.size for basin in basins])
+    basins = sorted(basins, key=lambda x:x.size, reverse=True)
+    print([basin.size for basin in basins])
+    print(basins[0].size * basins[1].size * basins[2].size)
+
+    image = np.zeros_like(points, dtype=np.int64)
+    for row in points:
+        for pt in row:
+            if pt.basin is None:
+                image[pt.y][pt.x] = 0
+            else:
+                image[pt.y][pt.x] = pt.basin.size
+    fig, ax = plt.subplots()
+    ax.imshow(image)
+    plt.show()
+
+
+if __name__ == "__main__":
+    main()
