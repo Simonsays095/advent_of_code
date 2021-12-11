@@ -116,6 +116,11 @@ def main():
     # plt.show()
     def animate(i):
         grid.step()
+        # flash_only = np.zeros_like(grid.energies)
+        # flash_only[np.where(grid.energies == 0)] = 10
+        # print(flash_only)
+        # print(sum(flash_only))
+        # im.set_array(10-flash_only)
         im.set_array(10-grid.energies)
     anim = animation.FuncAnimation(fig, animate, interval=100, save_count=600)
     writergif = animation.PillowWriter(fps=10)
