@@ -5,7 +5,7 @@ np.set_printoptions(linewidth=150, suppress=True)
 
 def main():
     # Parse input
-    with open("input", 'r') as f:
+    with open("sample2", 'r') as f:
         inp = f.read().splitlines()
     template = inp.pop(0)
     inp.pop(0)  # Blank line
@@ -44,7 +44,7 @@ def main():
 
     # Evolve the "pair state" of the polymer for the desired number of iterations
     history = [polymer]
-    for _ in range(10):
+    for _ in range(40):
         polymer = stepmat @ polymer
         history.append(polymer)
         print(polymer)

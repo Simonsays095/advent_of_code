@@ -53,7 +53,7 @@ class Instruction:
 
 
 def main():
-    with open("input", 'r') as f:
+    with open("sample", 'r') as f:
         inp = f.read().splitlines()
     instructions = []
     dots = []
