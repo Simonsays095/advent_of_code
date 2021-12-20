@@ -98,7 +98,10 @@ class Scanner:
         return obj
 
     def __repr__(self):
-        return f"<Scanner: idx={self.idx}, num_beacons={len(self.beacons)}, facing={self.facing}, rotation={self.rotation}>"
+        ret = f"--- scanner {self.idx} ---\n"
+        for beacon in self.beacons:
+            ret += f"{beacon.pos[0]},{beacon.pos[1]},{beacon.pos[2]}\n"
+        return ret
 
     def __init__(self, idx, beacons = None):
         self.idx = idx
@@ -209,6 +212,7 @@ def main():
     with open("input", 'r') as f:
         inp = f.read()
     inp = inp.split("\n\n")  # Empty line between scanners
+    print(len(inp))
     unanchored_scanners = set()
     for scanner_str in inp:
         unanchored_scanners.add(Scanner.FromString(scanner_str))
