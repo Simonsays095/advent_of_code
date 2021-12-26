@@ -77,31 +77,31 @@ def GetDigitOps(commands, digit):
 
 @functools.lru_cache(maxsize=None)
 def Solve(commands, digit, z):
-    if digit < 8:
-        print(f"Solving {digit}th digit, z={z}")
-    x=0; y=0
-    # print(commands[5+18*digit][6:], commands[4+18*digit][6:], commands[15+18*digit][6:])
-    for w in reversed(range(1,10)):
-        if z%26 + int(commands[5+18*digit][6:]) == w:
-            z = z//int(commands[4+18*digit][6:])
-        else:
-            z = 26*(z//int(commands[4+18*digit][6:])) + w + int(commands[15+18*digit][6:])
-        # quit()
+    '''
+    SIGNIFICANT speed gains (part 2 goes from 45 minutes down to 45 seconds) from:
+    1) Decompiling the program for each digit, utilizing the fact that there are only 3 true "variables" for each digit
+    2) Removing x and y components, since they're zeroes out at the beginning of the program and only z in maintained
+    3) Preprocessing the commands to just get the 3 "variables" in optimization 1) instead of reinterpreting it each time
 
-        
-        # alu = ALU()
-        # alu.z = z
-        # alu.input = str(num)
-        # digit_commands = GetDigitOps(commands, digit)
-        # for command in digit_commands:
-        #     alu.run(command)
+    There is still logic to optimize this down to O(1) to solve, but this is good enough for now.
+    Extra logic: https://github.com/dphilipson/advent-of-code-2021/blob/master/src/days/day24.rs
+    '''
+    if digit < 4:
+        print(f"Solving {digit}th digit, {z=}")
+    check, div, add = commands[digit]
+    for w in range(1,10):
+        if z%26 + check == w:
+            newz = z//div
+        else:
+            newz = 26*(z//div) + w + add
+
         if digit == 13:
-            if z == 0:
+            if newz == 0:
                 return str(w)
             continue
             
         # Propagate z through to the next digit
-        remaining_solution = Solve(commands, digit+1, z)
+        remaining_solution = Solve(commands, digit+1, newz)
         if remaining_solution is not None:
             return str(w) + remaining_solution
     return None
@@ -125,9 +125,19 @@ def main():
     with open("input", 'r') as f:
         inp = f.read().splitlines()
 
-    inp = tuple( line for line in inp if not line.startswith('#'))
-
-    solution = Solve(inp, 0, 0)
+    # Preprocess commands to get just ADD/CHECK/DIV
+    commands = []
+    digit_breaks = [idx for idx, elem in enumerate(inp) if elem[:3] == 'inp']
+    # for commands in inp:
+    for start_line in digit_breaks:
+        check = int(inp[start_line+5][6:])
+        div = int(inp[start_line+4][6:])
+        add = int(inp[start_line+15][6:])
+        commands.append((check, div, add))
+    commands = tuple(commands)
+    # print(commands)
+    # quit()
+    solution = Solve(commands, 0, 0)
     print("Solution:")
     print(solution)
 
