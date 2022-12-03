@@ -1,23 +1,16 @@
+using IterTools
 
 function main()
     lines = readlines("part1.input")
+    scoring = merge(
+        Dict(n => Int(n)-Int('a')+1 for n in 'a':'z'),
+        Dict(n => Int(n)-Int('A')+27 for n in 'A':'Z')
+    )
 
     totalPriority::Int = 0
-    idx::Int = 0
-    bags::Vector{AbstractString} = ["" for _ in 1:3]
-    for line in lines
-        idx += 1
-        bags[mod1(idx,3)] = line
-        if (mod1(idx,3) == 3)
-            common = intersect(bags[1], bags[2], bags[3])[1]
-            @show common
-            if (isuppercase(common))
-                priority = Int(common) - Int('A') + 27
-            else
-                priority = Int(common) - Int('a') + 1
-            end
-            totalPriority += priority
-        end
+    for (l1, l2, l3) in IterTools.partition(lines, 3)
+        common = only(intersect(l1, l2, l3))
+        totalPriority += get(scoring, common, 0)
     end
     @show totalPriority
 end
