@@ -102,8 +102,8 @@ function main()
     end
 
     for line in lines[idx+2:end]
-        words = split(line, ' ')
-        _, moveBoxes, _, startStack, _, endStack = map(parseint, words)
+        words = split(line, ' ')[begin+1:2:end]
+        moveBoxes, startStack, endStack = map(parseint, words)
         topHalf = splitfrom!(stacks[startStack], moveBoxes)
         concat!(stacks[endStack], topHalf)
     end
