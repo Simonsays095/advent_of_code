@@ -1,4 +1,5 @@
 using DataStructures
+using BenchmarkTools
 
 function parseint(var)
     try
@@ -59,4 +60,4 @@ function main()
     end
 end
 
-@time main()
+@btime main()
