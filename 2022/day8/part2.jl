@@ -10,11 +10,15 @@ end
 
 function HorizontalScore(heightMap, i, j, start, stop, step=1)
     score = 0
-    for other_j in range(start, stop, step=step)
+    other_j = start
+    decreasing = (step < 0)
+    while (!decreasing && other_j <= stop) || (decreasing && other_j >= stop)
+    # for other_j in range(start, stop, step=step)
         score += 1
         if heightMap[i, other_j] >= heightMap[i,j]
             break
         end
+        other_j += step
     end
     return score
 end
@@ -29,11 +33,15 @@ end
 
 function VerticalScore(heightMap, i, j, start, stop, step=1)
     score = 0
-    for other_i in range(start, stop, step=step)
+    other_i = start
+    decreasing = (step < 0)
+    while (!decreasing && other_i <= stop) || (decreasing && other_i >= stop)
+    # for other_i in range(start, stop, step=step)
         score += 1
         if heightMap[other_i, j] >= heightMap[i,j]
             break
         end
+        other_i += step
     end
     return score
 end
@@ -48,9 +56,8 @@ function main(verbose)
     end
     heightMap::Array{Int} = Array{Int}(undef, height, width)
     for (i, row) in enumerate(lines)
-        row = split(row, "")
         for (j, val) in enumerate(row)
-            heightMap[i,j] = tryparse(Int, val)
+            heightMap[i,j] = Int(val)
         end
     end
 
@@ -59,7 +66,6 @@ function main(verbose)
     for i in range(1,height)
         for j in range(1,width)
             score = 1
-            treeHeight = heightMap[i,j]
             score *= LeftScore(heightMap, i, j)
             score *= RightScore(heightMap, i, j)
             score *= UpScore(heightMap, i, j)
