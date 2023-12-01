@@ -1,0 +1,1255 @@
+┌ Debug: Blizzards: Set(Any[BlizzardState(CartesianIndex(4, 5), RIGHT), BlizzardState(CartesianIndex(5, 2), LEFT), BlizzardState(CartesianIndex(2, 6), UP), BlizzardState(CartesianIndex(2, 7), LEFT), BlizzardState(CartesianIndex(2, 2), RIGHT), BlizzardState(CartesianIndex(3, 3), LEFT), BlizzardState(CartesianIndex(2, 5), LEFT), BlizzardState(CartesianIndex(5, 5), UP), BlizzardState(CartesianIndex(2, 3), RIGHT), BlizzardState(CartesianIndex(4, 6), LEFT), BlizzardState(CartesianIndex(3, 6), LEFT), BlizzardState(CartesianIndex(4, 2), RIGHT), BlizzardState(CartesianIndex(4, 7), RIGHT), BlizzardState(CartesianIndex(5, 3), UP), BlizzardState(CartesianIndex(5, 7), RIGHT), BlizzardState(CartesianIndex(4, 3), DOWN), BlizzardState(CartesianIndex(5, 6), UP), BlizzardState(CartesianIndex(3, 7), LEFT), BlizzardState(CartesianIndex(5, 4), DOWN)])
+└ @ Main C:\dev\advent_of_code\2022\day24\part1.jl:102
+┌ Debug: Walls: Set(Any[WallState(CartesianIndex(6, 3)), WallState(CartesianIndex(4, 8)), WallState(CartesianIndex(6, 8)), WallState(CartesianIndex(1, 3)), WallState(CartesianIndex(6, 2)), WallState(CartesianIndex(6, 5)), WallState(CartesianIndex(3, 1)), WallState(CartesianIndex(1, 7)), WallState(CartesianIndex(6, 1)), WallState(CartesianIndex(2, 1)), WallState(CartesianIndex(5, 8)), WallState(CartesianIndex(1, 4)), WallState(CartesianIndex(6, 6)), WallState(CartesianIndex(1, 6)), WallState(CartesianIndex(3, 8)), WallState(CartesianIndex(6, 4)), WallState(CartesianIndex(4, 1)), WallState(CartesianIndex(1, 5)), WallState(CartesianIndex(5, 1)), WallState(CartesianIndex(2, 8)), WallState(CartesianIndex(1, 1)), WallState(CartesianIndex(1, 8))])
+└ @ Main C:\dev\advent_of_code\2022\day24\part1.jl:103
+┌ Warning: Starting at CartesianIndex(1, 2)
+└ @ Main C:\dev\advent_of_code\2022\day24\part1.jl:117
+┌ Warning: Ending at CartesianIndex(6, 7)
+└ @ Main C:\dev\advent_of_code\2022\day24\part1.jl:118
+[ Info: Start of timestep 1: Vector{Tuple{Int64, OpenState}}[[(0, OpenState(CartesianIndex(1, 2)))]]
+┌ Debug: Blizzards start: Tuple{Tuple{Int64, Int64}, FacingDir}[((4, 5), RIGHT), ((5, 2), LEFT), ((2, 6), UP), ((2, 7), LEFT), ((2, 2), RIGHT), ((3, 3), LEFT), ((2, 5), LEFT), ((5, 5), UP), ((2, 3), RIGHT), ((4, 6), LEFT), ((3, 6), LEFT), ((4, 2), RIGHT), ((4, 7), RIGHT), ((5, 3), UP), ((5, 7), RIGHT), ((4, 3), DOWN), ((5, 6), UP), ((3, 7), LEFT), ((5, 4), DOWN)]
+└ @ Main C:\dev\advent_of_code\2022\day24\part1.jl:126
+┌ Debug: blizzard BlizzardState(CartesianIndex(4, 5), RIGHT) moves to CartesianIndex(4, 6)
+└ @ Main C:\dev\advent_of_code\2022\day24\part1.jl:132
+┌ Debug: blizzard BlizzardState(CartesianIndex(5, 2), LEFT) moves to CartesianIndex(5, 7)
+└ @ Main C:\dev\advent_of_code\2022\day24\part1.jl:132
+┌ Debug: blizzard BlizzardState(CartesianIndex(2, 6), UP) moves to CartesianIndex(5, 6)
+└ @ Main C:\dev\advent_of_code\2022\day24\part1.jl:132
+┌ Debug: blizzard BlizzardState(CartesianIndex(2, 7), LEFT) moves to CartesianIndex(2, 6)
+└ @ Main C:\dev\advent_of_code\2022\day24\part1.jl:132
+┌ Debug: blizzard BlizzardState(CartesianIndex(2, 2), RIGHT) moves to CartesianIndex(2, 3)
+└ @ Main C:\dev\advent_of_code\2022\day24\part1.jl:132
+┌ Debug: blizzard BlizzardState(CartesianIndex(3, 3), LEFT) moves to CartesianIndex(3, 2)
+└ @ Main C:\dev\advent_of_code\2022\day24\part1.jl:132
+┌ Debug: blizzard BlizzardState(CartesianIndex(2, 5), LEFT) moves to CartesianIndex(2, 4)
+└ @ Main C:\dev\advent_of_code\2022\day24\part1.jl:132
+┌ Debug: blizzard BlizzardState(CartesianIndex(5, 5), UP) moves to CartesianIndex(4, 5)
+└ @ Main C:\dev\advent_of_code\2022\day24\part1.jl:132
+┌ Debug: blizzard BlizzardState(CartesianIndex(2, 3), RIGHT) moves to CartesianIndex(2, 4)
+└ @ Main C:\dev\advent_of_code\2022\day24\part1.jl:132
+┌ Debug: blizzard BlizzardState(CartesianIndex(4, 6), LEFT) moves to CartesianIndex(4, 5)
+└ @ Main C:\dev\advent_of_code\2022\day24\part1.jl:132
+┌ Debug: blizzard BlizzardState(CartesianIndex(3, 6), LEFT) moves to CartesianIndex(3, 5)
+└ @ Main C:\dev\advent_of_code\2022\day24\part1.jl:132
+┌ Debug: blizzard BlizzardState(CartesianIndex(4, 2), RIGHT) moves to CartesianIndex(4, 3)
+└ @ Main C:\dev\advent_of_code\2022\day24\part1.jl:132
+┌ Debug: blizzard BlizzardState(CartesianIndex(4, 7), RIGHT) moves to CartesianIndex(4, 2)
+└ @ Main C:\dev\advent_of_code\2022\day24\part1.jl:132
+┌ Debug: blizzard BlizzardState(CartesianIndex(5, 3), UP) moves to CartesianIndex(4, 3)
+└ @ Main C:\dev\advent_of_code\2022\day24\part1.jl:132
+┌ Debug: blizzard BlizzardState(CartesianIndex(5, 7), RIGHT) moves to CartesianIndex(5, 2)
+└ @ Main C:\dev\advent_of_code\2022\day24\part1.jl:132
+┌ Debug: blizzard BlizzardState(CartesianIndex(4, 3), DOWN) moves to CartesianIndex(5, 3)
+└ @ Main C:\dev\advent_of_code\2022\day24\part1.jl:132
+┌ Debug: blizzard BlizzardState(CartesianIndex(5, 6), UP) moves to CartesianIndex(4, 6)
+└ @ Main C:\dev\advent_of_code\2022\day24\part1.jl:132
+┌ Debug: blizzard BlizzardState(CartesianIndex(3, 7), LEFT) moves to CartesianIndex(3, 6)
+└ @ Main C:\dev\advent_of_code\2022\day24\part1.jl:132
+┌ Debug: blizzard BlizzardState(CartesianIndex(5, 4), DOWN) moves to CartesianIndex(2, 4)
+└ @ Main C:\dev\advent_of_code\2022\day24\part1.jl:132
+┌ Debug: Blizzards end: Tuple{Tuple{Int64, Int64}, FacingDir}[((4, 6), RIGHT), ((5, 7), LEFT), ((5, 6), UP), ((2, 6), LEFT), ((2, 3), RIGHT), ((3, 2), LEFT), ((2, 4), LEFT), ((4, 5), UP), ((2, 4), RIGHT), ((4, 5), LEFT), ((3, 5), LEFT), ((4, 3), RIGHT), ((4, 2), RIGHT), ((4, 3), UP), ((5, 2), RIGHT), ((5, 3), DOWN), ((4, 6), UP), ((3, 6), LEFT), ((2, 4), DOWN)]
+└ @ Main C:\dev\advent_of_code\2022\day24\part1.jl:160
+┌ Debug: looking for valid options for OpenState(CartesianIndex(1, 2))
+└ @ Main C:\dev\advent_of_code\2022\day24\part1.jl:172
+┌ Debug: Can stand still
+└ @ Main C:\dev\advent_of_code\2022\day24\part1.jl:177
+┌ Debug: Can't move RIGHT, a wall is there
+└ @ Main C:\dev\advent_of_code\2022\day24\part1.jl:210
+┌ Debug: Can move DOWN
+└ @ Main C:\dev\advent_of_code\2022\day24\part1.jl:198
+┌ Debug: Can't move LEFT, a wall is there
+└ @ Main C:\dev\advent_of_code\2022\day24\part1.jl:210
+[ Info: 0 paths culled, 2 remain.
+┌ Debug: End of timestep 2: Vector{Tuple{Int64, OpenState}}[[(0, OpenState(CartesianIndex(1, 2)))], [(1, OpenState(CartesianIndex(1, 2))), (1, OpenState(CartesianIndex(2, 2)))]]
+└ @ Main C:\dev\advent_of_code\2022\day24\part1.jl:228
+[ Info: Start of timestep 2: Vector{Tuple{Int64, OpenState}}[[(0, OpenState(CartesianIndex(1, 2)))], [(1, OpenState(CartesianIndex(1, 2))), (1, OpenState(CartesianIndex(2, 2)))]]
+┌ Debug: Blizzards start: Tuple{Tuple{Int64, Int64}, FacingDir}[((4, 6), RIGHT), ((5, 7), LEFT), ((5, 6), UP), ((2, 6), LEFT), ((2, 3), RIGHT), ((3, 2), LEFT), ((2, 4), LEFT), ((4, 5), UP), ((2, 4), RIGHT), ((4, 5), LEFT), ((3, 5), LEFT), ((4, 3), RIGHT), ((4, 2), RIGHT), ((4, 3), UP), ((5, 2), RIGHT), ((5, 3), DOWN), ((4, 6), UP), ((3, 6), LEFT), ((2, 4), DOWN)]
+└ @ Main C:\dev\advent_of_code\2022\day24\part1.jl:126
+┌ Debug: blizzard BlizzardState(CartesianIndex(4, 6), RIGHT) moves to CartesianIndex(4, 7)
+└ @ Main C:\dev\advent_of_code\2022\day24\part1.jl:132
+┌ Debug: blizzard BlizzardState(CartesianIndex(5, 7), LEFT) moves to CartesianIndex(5, 6)
+└ @ Main C:\dev\advent_of_code\2022\day24\part1.jl:132
+┌ Debug: blizzard BlizzardState(CartesianIndex(5, 6), UP) moves to CartesianIndex(4, 6)
+└ @ Main C:\dev\advent_of_code\2022\day24\part1.jl:132
+┌ Debug: blizzard BlizzardState(CartesianIndex(2, 6), LEFT) moves to CartesianIndex(2, 5)
+└ @ Main C:\dev\advent_of_code\2022\day24\part1.jl:132
+┌ Debug: blizzard BlizzardState(CartesianIndex(2, 3), RIGHT) moves to CartesianIndex(2, 4)
+└ @ Main C:\dev\advent_of_code\2022\day24\part1.jl:132
+┌ Debug: blizzard BlizzardState(CartesianIndex(3, 2), LEFT) moves to CartesianIndex(3, 7)
+└ @ Main C:\dev\advent_of_code\2022\day24\part1.jl:132
+┌ Debug: blizzard BlizzardState(CartesianIndex(2, 4), LEFT) moves to CartesianIndex(2, 3)
+└ @ Main C:\dev\advent_of_code\2022\day24\part1.jl:132
+┌ Debug: blizzard BlizzardState(CartesianIndex(4, 5), UP) moves to CartesianIndex(3, 5)
+└ @ Main C:\dev\advent_of_code\2022\day24\part1.jl:132
+┌ Debug: blizzard BlizzardState(CartesianIndex(2, 4), RIGHT) moves to CartesianIndex(2, 5)
+└ @ Main C:\dev\advent_of_code\2022\day24\part1.jl:132
+┌ Debug: blizzard BlizzardState(CartesianIndex(4, 5), LEFT) moves to CartesianIndex(4, 4)
+└ @ Main C:\dev\advent_of_code\2022\day24\part1.jl:132
+┌ Debug: blizzard BlizzardState(CartesianIndex(3, 5), LEFT) moves to CartesianIndex(3, 4)
+└ @ Main C:\dev\advent_of_code\2022\day24\part1.jl:132
+┌ Debug: blizzard BlizzardState(CartesianIndex(4, 3), RIGHT) moves to CartesianIndex(4, 4)
+└ @ Main C:\dev\advent_of_code\2022\day24\part1.jl:132
+┌ Debug: blizzard BlizzardState(CartesianIndex(4, 2), RIGHT) moves to CartesianIndex(4, 3)
+└ @ Main C:\dev\advent_of_code\2022\day24\part1.jl:132
+┌ Debug: blizzard BlizzardState(CartesianIndex(4, 3), UP) moves to CartesianIndex(3, 3)
+└ @ Main C:\dev\advent_of_code\2022\day24\part1.jl:132
+┌ Debug: blizzard BlizzardState(CartesianIndex(5, 2), RIGHT) moves to CartesianIndex(5, 3)
+└ @ Main C:\dev\advent_of_code\2022\day24\part1.jl:132
+┌ Debug: blizzard BlizzardState(CartesianIndex(5, 3), DOWN) moves to CartesianIndex(2, 3)
+└ @ Main C:\dev\advent_of_code\2022\day24\part1.jl:132
+┌ Debug: blizzard BlizzardState(CartesianIndex(4, 6), UP) moves to CartesianIndex(3, 6)
+└ @ Main C:\dev\advent_of_code\2022\day24\part1.jl:132
+┌ Debug: blizzard BlizzardState(CartesianIndex(3, 6), LEFT) moves to CartesianIndex(3, 5)
+└ @ Main C:\dev\advent_of_code\2022\day24\part1.jl:132
+┌ Debug: blizzard BlizzardState(CartesianIndex(2, 4), DOWN) moves to CartesianIndex(3, 4)
+└ @ Main C:\dev\advent_of_code\2022\day24\part1.jl:132
+┌ Debug: Blizzards end: Tuple{Tuple{Int64, Int64}, FacingDir}[((4, 7), RIGHT), ((5, 6), LEFT), ((4, 6), UP), ((2, 5), LEFT), ((2, 4), RIGHT), ((3, 7), LEFT), ((2, 3), LEFT), ((3, 5), UP), ((2, 5), RIGHT), ((4, 4), LEFT), ((3, 4), LEFT), ((4, 4), RIGHT), ((4, 3), RIGHT), ((3, 3), UP), ((5, 3), RIGHT), ((2, 3), DOWN), ((3, 6), UP), ((3, 5), LEFT), ((3, 4), DOWN)]
+└ @ Main C:\dev\advent_of_code\2022\day24\part1.jl:160
+┌ Debug: looking for valid options for OpenState(CartesianIndex(1, 2))
+└ @ Main C:\dev\advent_of_code\2022\day24\part1.jl:172
+┌ Debug: Can stand still
+└ @ Main C:\dev\advent_of_code\2022\day24\part1.jl:177
+┌ Debug: Can't move RIGHT, a wall is there
+└ @ Main C:\dev\advent_of_code\2022\day24\part1.jl:210
+┌ Debug: Can move DOWN
+└ @ Main C:\dev\advent_of_code\2022\day24\part1.jl:198
+┌ Debug: Can't move LEFT, a wall is there
+└ @ Main C:\dev\advent_of_code\2022\day24\part1.jl:210
+┌ Debug: looking for valid options for OpenState(CartesianIndex(2, 2))
+└ @ Main C:\dev\advent_of_code\2022\day24\part1.jl:172
+┌ Debug: Can stand still
+└ @ Main C:\dev\advent_of_code\2022\day24\part1.jl:177
+┌ Debug: Can move UP
+└ @ Main C:\dev\advent_of_code\2022\day24\part1.jl:198
+┌ Debug: Can't move RIGHT, a blizzard is there
+└ @ Main C:\dev\advent_of_code\2022\day24\part1.jl:208
+┌ Debug: Can move DOWN
+└ @ Main C:\dev\advent_of_code\2022\day24\part1.jl:198
+┌ Debug: Can't move LEFT, a wall is there
+└ @ Main C:\dev\advent_of_code\2022\day24\part1.jl:210
+[ Info: 2 paths culled, 3 remain.
+┌ Debug: End of timestep 3: Vector{Tuple{Int64, OpenState}}[[(0, OpenState(CartesianIndex(1, 2)))], [(1, OpenState(CartesianIndex(1, 2))), (1, OpenState(CartesianIndex(2, 2)))], [(1, OpenState(CartesianIndex(2, 2))), (2, OpenState(CartesianIndex(1, 2))), (2, OpenState(CartesianIndex(3, 2)))]]
+└ @ Main C:\dev\advent_of_code\2022\day24\part1.jl:228
+[ Info: Start of timestep 3: Vector{Tuple{Int64, OpenState}}[[(0, OpenState(CartesianIndex(1, 2)))], [(1, OpenState(CartesianIndex(1, 2))), (1, OpenState(CartesianIndex(2, 2)))], [(1, OpenState(CartesianIndex(2, 2))), (2, OpenState(CartesianIndex(1, 2))), (2, OpenState(CartesianIndex(3, 2)))]]
+┌ Debug: Blizzards start: Tuple{Tuple{Int64, Int64}, FacingDir}[((4, 7), RIGHT), ((5, 6), LEFT), ((4, 6), UP), ((2, 5), LEFT), ((2, 4), RIGHT), ((3, 7), LEFT), ((2, 3), LEFT), ((3, 5), UP), ((2, 5), RIGHT), ((4, 4), LEFT), ((3, 4), LEFT), ((4, 4), RIGHT), ((4, 3), RIGHT), ((3, 3), UP), ((5, 3), RIGHT), ((2, 3), DOWN), ((3, 6), UP), ((3, 5), LEFT), ((3, 4), DOWN)]
+└ @ Main C:\dev\advent_of_code\2022\day24\part1.jl:126
+┌ Debug: blizzard BlizzardState(CartesianIndex(4, 7), RIGHT) moves to CartesianIndex(4, 2)
+└ @ Main C:\dev\advent_of_code\2022\day24\part1.jl:132
+┌ Debug: blizzard BlizzardState(CartesianIndex(5, 6), LEFT) moves to CartesianIndex(5, 5)
+└ @ Main C:\dev\advent_of_code\2022\day24\part1.jl:132
+┌ Debug: blizzard BlizzardState(CartesianIndex(4, 6), UP) moves to CartesianIndex(3, 6)
+└ @ Main C:\dev\advent_of_code\2022\day24\part1.jl:132
+┌ Debug: blizzard BlizzardState(CartesianIndex(2, 5), LEFT) moves to CartesianIndex(2, 4)
+└ @ Main C:\dev\advent_of_code\2022\day24\part1.jl:132
+┌ Debug: blizzard BlizzardState(CartesianIndex(2, 4), RIGHT) moves to CartesianIndex(2, 5)
+└ @ Main C:\dev\advent_of_code\2022\day24\part1.jl:132
+┌ Debug: blizzard BlizzardState(CartesianIndex(3, 7), LEFT) moves to CartesianIndex(3, 6)
+└ @ Main C:\dev\advent_of_code\2022\day24\part1.jl:132
+┌ Debug: blizzard BlizzardState(CartesianIndex(2, 3), LEFT) moves to CartesianIndex(2, 2)
+└ @ Main C:\dev\advent_of_code\2022\day24\part1.jl:132
+┌ Debug: blizzard BlizzardState(CartesianIndex(3, 5), UP) moves to CartesianIndex(2, 5)
+└ @ Main C:\dev\advent_of_code\2022\day24\part1.jl:132
+┌ Debug: blizzard BlizzardState(CartesianIndex(2, 5), RIGHT) moves to CartesianIndex(2, 6)
+└ @ Main C:\dev\advent_of_code\2022\day24\part1.jl:132
+┌ Debug: blizzard BlizzardState(CartesianIndex(4, 4), LEFT) moves to CartesianIndex(4, 3)
+└ @ Main C:\dev\advent_of_code\2022\day24\part1.jl:132
+┌ Debug: blizzard BlizzardState(CartesianIndex(3, 4), LEFT) moves to CartesianIndex(3, 3)
+└ @ Main C:\dev\advent_of_code\2022\day24\part1.jl:132
+┌ Debug: blizzard BlizzardState(CartesianIndex(4, 4), RIGHT) moves to CartesianIndex(4, 5)
+└ @ Main C:\dev\advent_of_code\2022\day24\part1.jl:132
+┌ Debug: blizzard BlizzardState(CartesianIndex(4, 3), RIGHT) moves to CartesianIndex(4, 4)
+└ @ Main C:\dev\advent_of_code\2022\day24\part1.jl:132
+┌ Debug: blizzard BlizzardState(CartesianIndex(3, 3), UP) moves to CartesianIndex(2, 3)
+└ @ Main C:\dev\advent_of_code\2022\day24\part1.jl:132
+┌ Debug: blizzard BlizzardState(CartesianIndex(5, 3), RIGHT) moves to CartesianIndex(5, 4)
+└ @ Main C:\dev\advent_of_code\2022\day24\part1.jl:132
+┌ Debug: blizzard BlizzardState(CartesianIndex(2, 3), DOWN) moves to CartesianIndex(3, 3)
+└ @ Main C:\dev\advent_of_code\2022\day24\part1.jl:132
+┌ Debug: blizzard BlizzardState(CartesianIndex(3, 6), UP) moves to CartesianIndex(2, 6)
+└ @ Main C:\dev\advent_of_code\2022\day24\part1.jl:132
+┌ Debug: blizzard BlizzardState(CartesianIndex(3, 5), LEFT) moves to CartesianIndex(3, 4)
+└ @ Main C:\dev\advent_of_code\2022\day24\part1.jl:132
+┌ Debug: blizzard BlizzardState(CartesianIndex(3, 4), DOWN) moves to CartesianIndex(4, 4)
+└ @ Main C:\dev\advent_of_code\2022\day24\part1.jl:132
+┌ Debug: Blizzards end: Tuple{Tuple{Int64, Int64}, FacingDir}[((4, 2), RIGHT), ((5, 5), LEFT), ((3, 6), UP), ((2, 4), LEFT), ((2, 5), RIGHT), ((3, 6), LEFT), ((2, 2), LEFT), ((2, 5), UP), ((2, 6), RIGHT), ((4, 3), LEFT), ((3, 3), LEFT), ((4, 5), RIGHT), ((4, 4), RIGHT), ((2, 3), UP), ((5, 4), RIGHT), ((3, 3), DOWN), ((2, 6), UP), ((3, 4), LEFT), ((4, 4), DOWN)]
+└ @ Main C:\dev\advent_of_code\2022\day24\part1.jl:160
+┌ Debug: looking for valid options for OpenState(CartesianIndex(2, 2))
+└ @ Main C:\dev\advent_of_code\2022\day24\part1.jl:172
+┌ Debug: Can't stand still, a blizzard has arrived
+└ @ Main C:\dev\advent_of_code\2022\day24\part1.jl:181
+┌ Debug: Can move UP
+└ @ Main C:\dev\advent_of_code\2022\day24\part1.jl:198
+┌ Debug: Can't move RIGHT, a blizzard is there
+└ @ Main C:\dev\advent_of_code\2022\day24\part1.jl:208
+┌ Debug: Can move DOWN
+└ @ Main C:\dev\advent_of_code\2022\day24\part1.jl:198
+┌ Debug: Can't move LEFT, a wall is there
+└ @ Main C:\dev\advent_of_code\2022\day24\part1.jl:210
+┌ Debug: looking for valid options for OpenState(CartesianIndex(1, 2))
+└ @ Main C:\dev\advent_of_code\2022\day24\part1.jl:172
+┌ Debug: Can stand still
+└ @ Main C:\dev\advent_of_code\2022\day24\part1.jl:177
+┌ Debug: Can't move RIGHT, a wall is there
+└ @ Main C:\dev\advent_of_code\2022\day24\part1.jl:210
+┌ Debug: Can't move DOWN, a blizzard is there
+└ @ Main C:\dev\advent_of_code\2022\day24\part1.jl:208
+┌ Debug: Can't move LEFT, a wall is there
+└ @ Main C:\dev\advent_of_code\2022\day24\part1.jl:210
+┌ Debug: looking for valid options for OpenState(CartesianIndex(3, 2))
+└ @ Main C:\dev\advent_of_code\2022\day24\part1.jl:172
+┌ Debug: Can stand still
+└ @ Main C:\dev\advent_of_code\2022\day24\part1.jl:177
+┌ Debug: Can't move UP, a blizzard is there
+└ @ Main C:\dev\advent_of_code\2022\day24\part1.jl:208
+┌ Debug: Can't move RIGHT, a blizzard is there
+└ @ Main C:\dev\advent_of_code\2022\day24\part1.jl:208
+┌ Debug: Can't move DOWN, a blizzard is there
+└ @ Main C:\dev\advent_of_code\2022\day24\part1.jl:208
+┌ Debug: Can't move LEFT, a wall is there
+└ @ Main C:\dev\advent_of_code\2022\day24\part1.jl:210
+[ Info: 2 paths culled, 2 remain.
+┌ Debug: End of timestep 4: Vector{Tuple{Int64, OpenState}}[[(0, OpenState(CartesianIndex(1, 2)))], [(1, OpenState(CartesianIndex(1, 2))), (1, OpenState(CartesianIndex(2, 2)))], [(1, OpenState(CartesianIndex(2, 2))), (2, OpenState(CartesianIndex(1, 2))), (2, OpenState(CartesianIndex(3, 2)))], [(1, OpenState(CartesianIndex(3, 2))), (2, OpenState(CartesianIndex(1, 2)))]]
+└ @ Main C:\dev\advent_of_code\2022\day24\part1.jl:228
+[ Info: Start of timestep 4: Vector{Tuple{Int64, OpenState}}[[(0, OpenState(CartesianIndex(1, 2)))], [(1, OpenState(CartesianIndex(1, 2))), (1, OpenState(CartesianIndex(2, 2)))], [(1, OpenState(CartesianIndex(2, 2))), (2, OpenState(CartesianIndex(1, 2))), (2, OpenState(CartesianIndex(3, 2)))], [(1, OpenState(CartesianIndex(3, 2))), (2, OpenState(CartesianIndex(1, 2)))]]
+┌ Debug: Blizzards start: Tuple{Tuple{Int64, Int64}, FacingDir}[((4, 2), RIGHT), ((5, 5), LEFT), ((3, 6), UP), ((2, 4), LEFT), ((2, 5), RIGHT), ((3, 6), LEFT), ((2, 2), LEFT), ((2, 5), UP), ((2, 6), RIGHT), ((4, 3), LEFT), ((3, 3), LEFT), ((4, 5), RIGHT), ((4, 4), RIGHT), ((2, 3), UP), ((5, 4), RIGHT), ((3, 3), DOWN), ((2, 6), UP), ((3, 4), LEFT), ((4, 4), DOWN)]
+└ @ Main C:\dev\advent_of_code\2022\day24\part1.jl:126
+┌ Debug: blizzard BlizzardState(CartesianIndex(4, 2), RIGHT) moves to CartesianIndex(4, 3)
+└ @ Main C:\dev\advent_of_code\2022\day24\part1.jl:132
+┌ Debug: blizzard BlizzardState(CartesianIndex(5, 5), LEFT) moves to CartesianIndex(5, 4)
+└ @ Main C:\dev\advent_of_code\2022\day24\part1.jl:132
+┌ Debug: blizzard BlizzardState(CartesianIndex(3, 6), UP) moves to CartesianIndex(2, 6)
+└ @ Main C:\dev\advent_of_code\2022\day24\part1.jl:132
+┌ Debug: blizzard BlizzardState(CartesianIndex(2, 4), LEFT) moves to CartesianIndex(2, 3)
+└ @ Main C:\dev\advent_of_code\2022\day24\part1.jl:132
+┌ Debug: blizzard BlizzardState(CartesianIndex(2, 5), RIGHT) moves to CartesianIndex(2, 6)
+└ @ Main C:\dev\advent_of_code\2022\day24\part1.jl:132
+┌ Debug: blizzard BlizzardState(CartesianIndex(3, 6), LEFT) moves to CartesianIndex(3, 5)
+└ @ Main C:\dev\advent_of_code\2022\day24\part1.jl:132
+┌ Debug: blizzard BlizzardState(CartesianIndex(2, 2), LEFT) moves to CartesianIndex(2, 7)
+└ @ Main C:\dev\advent_of_code\2022\day24\part1.jl:132
+┌ Debug: blizzard BlizzardState(CartesianIndex(2, 5), UP) moves to CartesianIndex(5, 5)
+└ @ Main C:\dev\advent_of_code\2022\day24\part1.jl:132
+┌ Debug: blizzard BlizzardState(CartesianIndex(2, 6), RIGHT) moves to CartesianIndex(2, 7)
+└ @ Main C:\dev\advent_of_code\2022\day24\part1.jl:132
+┌ Debug: blizzard BlizzardState(CartesianIndex(4, 3), LEFT) moves to CartesianIndex(4, 2)
+└ @ Main C:\dev\advent_of_code\2022\day24\part1.jl:132
+┌ Debug: blizzard BlizzardState(CartesianIndex(3, 3), LEFT) moves to CartesianIndex(3, 2)
+└ @ Main C:\dev\advent_of_code\2022\day24\part1.jl:132
+┌ Debug: blizzard BlizzardState(CartesianIndex(4, 5), RIGHT) moves to CartesianIndex(4, 6)
+└ @ Main C:\dev\advent_of_code\2022\day24\part1.jl:132
+┌ Debug: blizzard BlizzardState(CartesianIndex(4, 4), RIGHT) moves to CartesianIndex(4, 5)
+└ @ Main C:\dev\advent_of_code\2022\day24\part1.jl:132
+┌ Debug: blizzard BlizzardState(CartesianIndex(2, 3), UP) moves to CartesianIndex(5, 3)
+└ @ Main C:\dev\advent_of_code\2022\day24\part1.jl:132
+┌ Debug: blizzard BlizzardState(CartesianIndex(5, 4), RIGHT) moves to CartesianIndex(5, 5)
+└ @ Main C:\dev\advent_of_code\2022\day24\part1.jl:132
+┌ Debug: blizzard BlizzardState(CartesianIndex(3, 3), DOWN) moves to CartesianIndex(4, 3)
+└ @ Main C:\dev\advent_of_code\2022\day24\part1.jl:132
+┌ Debug: blizzard BlizzardState(CartesianIndex(2, 6), UP) moves to CartesianIndex(5, 6)
+└ @ Main C:\dev\advent_of_code\2022\day24\part1.jl:132
+┌ Debug: blizzard BlizzardState(CartesianIndex(3, 4), LEFT) moves to CartesianIndex(3, 3)
+└ @ Main C:\dev\advent_of_code\2022\day24\part1.jl:132
+┌ Debug: blizzard BlizzardState(CartesianIndex(4, 4), DOWN) moves to CartesianIndex(5, 4)
+└ @ Main C:\dev\advent_of_code\2022\day24\part1.jl:132
+┌ Debug: Blizzards end: Tuple{Tuple{Int64, Int64}, FacingDir}[((4, 3), RIGHT), ((5, 4), LEFT), ((2, 6), UP), ((2, 3), LEFT), ((2, 6), RIGHT), ((3, 5), LEFT), ((2, 7), LEFT), ((5, 5), UP), ((2, 7), RIGHT), ((4, 2), LEFT), ((3, 2), LEFT), ((4, 6), RIGHT), ((4, 5), RIGHT), ((5, 3), UP), ((5, 5), RIGHT), ((4, 3), DOWN), ((5, 6), UP), ((3, 3), LEFT), ((5, 4), DOWN)]
+└ @ Main C:\dev\advent_of_code\2022\day24\part1.jl:160
+┌ Debug: looking for valid options for OpenState(CartesianIndex(3, 2))
+└ @ Main C:\dev\advent_of_code\2022\day24\part1.jl:172
+┌ Debug: Can't stand still, a blizzard has arrived
+└ @ Main C:\dev\advent_of_code\2022\day24\part1.jl:181
+┌ Debug: Can move UP
+└ @ Main C:\dev\advent_of_code\2022\day24\part1.jl:198
+┌ Debug: Can't move RIGHT, a blizzard is there
+└ @ Main C:\dev\advent_of_code\2022\day24\part1.jl:208
+┌ Debug: Can't move DOWN, a blizzard is there
+└ @ Main C:\dev\advent_of_code\2022\day24\part1.jl:208
+┌ Debug: Can't move LEFT, a wall is there
+└ @ Main C:\dev\advent_of_code\2022\day24\part1.jl:210
+┌ Debug: looking for valid options for OpenState(CartesianIndex(1, 2))
+└ @ Main C:\dev\advent_of_code\2022\day24\part1.jl:172
+┌ Debug: Can stand still
+└ @ Main C:\dev\advent_of_code\2022\day24\part1.jl:177
+┌ Debug: Can't move RIGHT, a wall is there
+└ @ Main C:\dev\advent_of_code\2022\day24\part1.jl:210
+┌ Debug: Can move DOWN
+└ @ Main C:\dev\advent_of_code\2022\day24\part1.jl:198
+┌ Debug: Can't move LEFT, a wall is there
+└ @ Main C:\dev\advent_of_code\2022\day24\part1.jl:210
+[ Info: 1 paths culled, 2 remain.
+┌ Debug: End of timestep 5: Vector{Tuple{Int64, OpenState}}[[(0, OpenState(CartesianIndex(1, 2)))], [(1, OpenState(CartesianIndex(1, 2))), (1, OpenState(CartesianIndex(2, 2)))], [(1, OpenState(CartesianIndex(2, 2))), (2, OpenState(CartesianIndex(1, 2))), (2, OpenState(CartesianIndex(3, 2)))], [(1, OpenState(CartesianIndex(3, 2))), (2, OpenState(CartesianIndex(1, 2)))], [(2, OpenState(CartesianIndex(1, 2))), (2, OpenState(CartesianIndex(2, 2)))]]
+└ @ Main C:\dev\advent_of_code\2022\day24\part1.jl:228
+[ Info: Start of timestep 5: Vector{Tuple{Int64, OpenState}}[[(0, OpenState(CartesianIndex(1, 2)))], [(1, OpenState(CartesianIndex(1, 2))), (1, OpenState(CartesianIndex(2, 2)))], [(1, OpenState(CartesianIndex(2, 2))), (2, OpenState(CartesianIndex(1, 2))), (2, OpenState(CartesianIndex(3, 2)))], [(1, OpenState(CartesianIndex(3, 2))), (2, OpenState(CartesianIndex(1, 2)))], [(2, OpenState(CartesianIndex(1, 2))), (2, OpenState(CartesianIndex(2, 2)))]]
+┌ Debug: Blizzards start: Tuple{Tuple{Int64, Int64}, FacingDir}[((4, 3), RIGHT), ((5, 4), LEFT), ((2, 6), UP), ((2, 3), LEFT), ((2, 6), RIGHT), ((3, 5), LEFT), ((2, 7), LEFT), ((5, 5), UP), ((2, 7), RIGHT), ((4, 2), LEFT), ((3, 2), LEFT), ((4, 6), RIGHT), ((4, 5), RIGHT), ((5, 3), UP), ((5, 5), RIGHT), ((4, 3), DOWN), ((5, 6), UP), ((3, 3), LEFT), ((5, 4), DOWN)]
+└ @ Main C:\dev\advent_of_code\2022\day24\part1.jl:126
+┌ Debug: blizzard BlizzardState(CartesianIndex(4, 3), RIGHT) moves to CartesianIndex(4, 4)
+└ @ Main C:\dev\advent_of_code\2022\day24\part1.jl:132
+┌ Debug: blizzard BlizzardState(CartesianIndex(5, 4), LEFT) moves to CartesianIndex(5, 3)
+└ @ Main C:\dev\advent_of_code\2022\day24\part1.jl:132
+┌ Debug: blizzard BlizzardState(CartesianIndex(2, 6), UP) moves to CartesianIndex(5, 6)
+└ @ Main C:\dev\advent_of_code\2022\day24\part1.jl:132
+┌ Debug: blizzard BlizzardState(CartesianIndex(2, 3), LEFT) moves to CartesianIndex(2, 2)
+└ @ Main C:\dev\advent_of_code\2022\day24\part1.jl:132
+┌ Debug: blizzard BlizzardState(CartesianIndex(2, 6), RIGHT) moves to CartesianIndex(2, 7)
+└ @ Main C:\dev\advent_of_code\2022\day24\part1.jl:132
+┌ Debug: blizzard BlizzardState(CartesianIndex(3, 5), LEFT) moves to CartesianIndex(3, 4)
+└ @ Main C:\dev\advent_of_code\2022\day24\part1.jl:132
+┌ Debug: blizzard BlizzardState(CartesianIndex(2, 7), LEFT) moves to CartesianIndex(2, 6)
+└ @ Main C:\dev\advent_of_code\2022\day24\part1.jl:132
+┌ Debug: blizzard BlizzardState(CartesianIndex(5, 5), UP) moves to CartesianIndex(4, 5)
+└ @ Main C:\dev\advent_of_code\2022\day24\part1.jl:132
+┌ Debug: blizzard BlizzardState(CartesianIndex(2, 7), RIGHT) moves to CartesianIndex(2, 2)
+└ @ Main C:\dev\advent_of_code\2022\day24\part1.jl:132
+┌ Debug: blizzard BlizzardState(CartesianIndex(4, 2), LEFT) moves to CartesianIndex(4, 7)
+└ @ Main C:\dev\advent_of_code\2022\day24\part1.jl:132
+┌ Debug: blizzard BlizzardState(CartesianIndex(3, 2), LEFT) moves to CartesianIndex(3, 7)
+└ @ Main C:\dev\advent_of_code\2022\day24\part1.jl:132
+┌ Debug: blizzard BlizzardState(CartesianIndex(4, 6), RIGHT) moves to CartesianIndex(4, 7)
+└ @ Main C:\dev\advent_of_code\2022\day24\part1.jl:132
+┌ Debug: blizzard BlizzardState(CartesianIndex(4, 5), RIGHT) moves to CartesianIndex(4, 6)
+└ @ Main C:\dev\advent_of_code\2022\day24\part1.jl:132
+┌ Debug: blizzard BlizzardState(CartesianIndex(5, 3), UP) moves to CartesianIndex(4, 3)
+└ @ Main C:\dev\advent_of_code\2022\day24\part1.jl:132
+┌ Debug: blizzard BlizzardState(CartesianIndex(5, 5), RIGHT) moves to CartesianIndex(5, 6)
+└ @ Main C:\dev\advent_of_code\2022\day24\part1.jl:132
+┌ Debug: blizzard BlizzardState(CartesianIndex(4, 3), DOWN) moves to CartesianIndex(5, 3)
+└ @ Main C:\dev\advent_of_code\2022\day24\part1.jl:132
+┌ Debug: blizzard BlizzardState(CartesianIndex(5, 6), UP) moves to CartesianIndex(4, 6)
+└ @ Main C:\dev\advent_of_code\2022\day24\part1.jl:132
+┌ Debug: blizzard BlizzardState(CartesianIndex(3, 3), LEFT) moves to CartesianIndex(3, 2)
+└ @ Main C:\dev\advent_of_code\2022\day24\part1.jl:132
+┌ Debug: blizzard BlizzardState(CartesianIndex(5, 4), DOWN) moves to CartesianIndex(2, 4)
+└ @ Main C:\dev\advent_of_code\2022\day24\part1.jl:132
+┌ Debug: Blizzards end: Tuple{Tuple{Int64, Int64}, FacingDir}[((4, 4), RIGHT), ((5, 3), LEFT), ((5, 6), UP), ((2, 2), LEFT), ((2, 7), RIGHT), ((3, 4), LEFT), ((2, 6), LEFT), ((4, 5), UP), ((2, 2), RIGHT), ((4, 7), LEFT), ((3, 7), LEFT), ((4, 7), RIGHT), ((4, 6), RIGHT), ((4, 3), UP), ((5, 6), RIGHT), ((5, 3), DOWN), ((4, 6), UP), ((3, 2), LEFT), ((2, 4), DOWN)]
+└ @ Main C:\dev\advent_of_code\2022\day24\part1.jl:160
+┌ Debug: looking for valid options for OpenState(CartesianIndex(1, 2))
+└ @ Main C:\dev\advent_of_code\2022\day24\part1.jl:172
+┌ Debug: Can stand still
+└ @ Main C:\dev\advent_of_code\2022\day24\part1.jl:177
+┌ Debug: Can't move RIGHT, a wall is there
+└ @ Main C:\dev\advent_of_code\2022\day24\part1.jl:210
+┌ Debug: Can't move DOWN, a blizzard is there
+└ @ Main C:\dev\advent_of_code\2022\day24\part1.jl:208
+┌ Debug: Can't move LEFT, a wall is there
+└ @ Main C:\dev\advent_of_code\2022\day24\part1.jl:210
+┌ Debug: looking for valid options for OpenState(CartesianIndex(2, 2))
+└ @ Main C:\dev\advent_of_code\2022\day24\part1.jl:172
+┌ Debug: Can't stand still, a blizzard has arrived
+└ @ Main C:\dev\advent_of_code\2022\day24\part1.jl:181
+┌ Debug: Can move UP
+└ @ Main C:\dev\advent_of_code\2022\day24\part1.jl:198
+┌ Debug: Can move RIGHT
+└ @ Main C:\dev\advent_of_code\2022\day24\part1.jl:198
+┌ Debug: Can't move DOWN, a blizzard is there
+└ @ Main C:\dev\advent_of_code\2022\day24\part1.jl:208
+┌ Debug: Can't move LEFT, a wall is there
+└ @ Main C:\dev\advent_of_code\2022\day24\part1.jl:210
+[ Info: 1 paths culled, 2 remain.
+┌ Debug: End of timestep 6: Vector{Tuple{Int64, OpenState}}[[(0, OpenState(CartesianIndex(1, 2)))], [(1, OpenState(CartesianIndex(1, 2))), (1, OpenState(CartesianIndex(2, 2)))], [(1, OpenState(CartesianIndex(2, 2))), (2, OpenState(CartesianIndex(1, 2))), (2, OpenState(CartesianIndex(3, 2)))], [(1, OpenState(CartesianIndex(3, 2))), (2, OpenState(CartesianIndex(1, 2)))], [(2, OpenState(CartesianIndex(1, 2))), (2, OpenState(CartesianIndex(2, 2)))], [(2, OpenState(CartesianIndex(1, 2))), (2, OpenState(CartesianIndex(2, 3)))]]
+└ @ Main C:\dev\advent_of_code\2022\day24\part1.jl:228
+[ Info: Start of timestep 6: Vector{Tuple{Int64, OpenState}}[[(0, OpenState(CartesianIndex(1, 2)))], [(1, OpenState(CartesianIndex(1, 2))), (1, OpenState(CartesianIndex(2, 2)))], [(1, OpenState(CartesianIndex(2, 2))), (2, OpenState(CartesianIndex(1, 2))), (2, OpenState(CartesianIndex(3, 2)))], [(1, OpenState(CartesianIndex(3, 2))), (2, OpenState(CartesianIndex(1, 2)))], [(2, OpenState(CartesianIndex(1, 2))), (2, OpenState(CartesianIndex(2, 2)))], [(2, OpenState(CartesianIndex(1, 2))), (2, OpenState(CartesianIndex(2, 3)))]]
+┌ Debug: Blizzards start: Tuple{Tuple{Int64, Int64}, FacingDir}[((4, 4), RIGHT), ((5, 3), LEFT), ((5, 6), UP), ((2, 2), LEFT), ((2, 7), RIGHT), ((3, 4), LEFT), ((2, 6), LEFT), ((4, 5), UP), ((2, 2), RIGHT), ((4, 7), LEFT), ((3, 7), LEFT), ((4, 7), RIGHT), ((4, 6), RIGHT), ((4, 3), UP), ((5, 6), RIGHT), ((5, 3), DOWN), ((4, 6), UP), ((3, 2), LEFT), ((2, 4), DOWN)]
+└ @ Main C:\dev\advent_of_code\2022\day24\part1.jl:126
+┌ Debug: blizzard BlizzardState(CartesianIndex(4, 4), RIGHT) moves to CartesianIndex(4, 5)
+└ @ Main C:\dev\advent_of_code\2022\day24\part1.jl:132
+┌ Debug: blizzard BlizzardState(CartesianIndex(5, 3), LEFT) moves to CartesianIndex(5, 2)
+└ @ Main C:\dev\advent_of_code\2022\day24\part1.jl:132
+┌ Debug: blizzard BlizzardState(CartesianIndex(5, 6), UP) moves to CartesianIndex(4, 6)
+└ @ Main C:\dev\advent_of_code\2022\day24\part1.jl:132
+┌ Debug: blizzard BlizzardState(CartesianIndex(2, 2), LEFT) moves to CartesianIndex(2, 7)
+└ @ Main C:\dev\advent_of_code\2022\day24\part1.jl:132
+┌ Debug: blizzard BlizzardState(CartesianIndex(2, 7), RIGHT) moves to CartesianIndex(2, 2)
+└ @ Main C:\dev\advent_of_code\2022\day24\part1.jl:132
+┌ Debug: blizzard BlizzardState(CartesianIndex(3, 4), LEFT) moves to CartesianIndex(3, 3)
+└ @ Main C:\dev\advent_of_code\2022\day24\part1.jl:132
+┌ Debug: blizzard BlizzardState(CartesianIndex(2, 6), LEFT) moves to CartesianIndex(2, 5)
+└ @ Main C:\dev\advent_of_code\2022\day24\part1.jl:132
+┌ Debug: blizzard BlizzardState(CartesianIndex(4, 5), UP) moves to CartesianIndex(3, 5)
+└ @ Main C:\dev\advent_of_code\2022\day24\part1.jl:132
+┌ Debug: blizzard BlizzardState(CartesianIndex(2, 2), RIGHT) moves to CartesianIndex(2, 3)
+└ @ Main C:\dev\advent_of_code\2022\day24\part1.jl:132
+┌ Debug: blizzard BlizzardState(CartesianIndex(4, 7), LEFT) moves to CartesianIndex(4, 6)
+└ @ Main C:\dev\advent_of_code\2022\day24\part1.jl:132
+┌ Debug: blizzard BlizzardState(CartesianIndex(3, 7), LEFT) moves to CartesianIndex(3, 6)
+└ @ Main C:\dev\advent_of_code\2022\day24\part1.jl:132
+┌ Debug: blizzard BlizzardState(CartesianIndex(4, 7), RIGHT) moves to CartesianIndex(4, 2)
+└ @ Main C:\dev\advent_of_code\2022\day24\part1.jl:132
+┌ Debug: blizzard BlizzardState(CartesianIndex(4, 6), RIGHT) moves to CartesianIndex(4, 7)
+└ @ Main C:\dev\advent_of_code\2022\day24\part1.jl:132
+┌ Debug: blizzard BlizzardState(CartesianIndex(4, 3), UP) moves to CartesianIndex(3, 3)
+└ @ Main C:\dev\advent_of_code\2022\day24\part1.jl:132
+┌ Debug: blizzard BlizzardState(CartesianIndex(5, 6), RIGHT) moves to CartesianIndex(5, 7)
+└ @ Main C:\dev\advent_of_code\2022\day24\part1.jl:132
+┌ Debug: blizzard BlizzardState(CartesianIndex(5, 3), DOWN) moves to CartesianIndex(2, 3)
+└ @ Main C:\dev\advent_of_code\2022\day24\part1.jl:132
+┌ Debug: blizzard BlizzardState(CartesianIndex(4, 6), UP) moves to CartesianIndex(3, 6)
+└ @ Main C:\dev\advent_of_code\2022\day24\part1.jl:132
+┌ Debug: blizzard BlizzardState(CartesianIndex(3, 2), LEFT) moves to CartesianIndex(3, 7)
+└ @ Main C:\dev\advent_of_code\2022\day24\part1.jl:132
+┌ Debug: blizzard BlizzardState(CartesianIndex(2, 4), DOWN) moves to CartesianIndex(3, 4)
+└ @ Main C:\dev\advent_of_code\2022\day24\part1.jl:132
+┌ Debug: Blizzards end: Tuple{Tuple{Int64, Int64}, FacingDir}[((4, 5), RIGHT), ((5, 2), LEFT), ((4, 6), UP), ((2, 7), LEFT), ((2, 2), RIGHT), ((3, 3), LEFT), ((2, 5), LEFT), ((3, 5), UP), ((2, 3), RIGHT), ((4, 6), LEFT), ((3, 6), LEFT), ((4, 2), RIGHT), ((4, 7), RIGHT), ((3, 3), UP), ((5, 7), RIGHT), ((2, 3), DOWN), ((3, 6), UP), ((3, 7), LEFT), ((3, 4), DOWN)]
+└ @ Main C:\dev\advent_of_code\2022\day24\part1.jl:160
+┌ Debug: looking for valid options for OpenState(CartesianIndex(1, 2))
+└ @ Main C:\dev\advent_of_code\2022\day24\part1.jl:172
+┌ Debug: Can stand still
+└ @ Main C:\dev\advent_of_code\2022\day24\part1.jl:177
+┌ Debug: Can't move RIGHT, a wall is there
+└ @ Main C:\dev\advent_of_code\2022\day24\part1.jl:210
+┌ Debug: Can't move DOWN, a blizzard is there
+└ @ Main C:\dev\advent_of_code\2022\day24\part1.jl:208
+┌ Debug: Can't move LEFT, a wall is there
+└ @ Main C:\dev\advent_of_code\2022\day24\part1.jl:210
+┌ Debug: looking for valid options for OpenState(CartesianIndex(2, 3))
+└ @ Main C:\dev\advent_of_code\2022\day24\part1.jl:172
+┌ Debug: Can't stand still, a blizzard has arrived
+└ @ Main C:\dev\advent_of_code\2022\day24\part1.jl:181
+┌ Debug: Can't move UP, a wall is there
+└ @ Main C:\dev\advent_of_code\2022\day24\part1.jl:210
+┌ Debug: Can move RIGHT
+└ @ Main C:\dev\advent_of_code\2022\day24\part1.jl:198
+┌ Debug: Can't move DOWN, a blizzard is there
+└ @ Main C:\dev\advent_of_code\2022\day24\part1.jl:208
+┌ Debug: Can't move LEFT, a blizzard is there
+└ @ Main C:\dev\advent_of_code\2022\day24\part1.jl:208
+[ Info: 0 paths culled, 2 remain.
+┌ Debug: End of timestep 7: Vector{Tuple{Int64, OpenState}}[[(0, OpenState(CartesianIndex(1, 2)))], [(1, OpenState(CartesianIndex(1, 2))), (1, OpenState(CartesianIndex(2, 2)))], [(1, OpenState(CartesianIndex(2, 2))), (2, OpenState(CartesianIndex(1, 2))), (2, OpenState(CartesianIndex(3, 2)))], [(1, OpenState(CartesianIndex(3, 2))), (2, OpenState(CartesianIndex(1, 2)))], [(2, OpenState(CartesianIndex(1, 2))), (2, OpenState(CartesianIndex(2, 2)))], [(2, OpenState(CartesianIndex(1, 2))), (2, OpenState(CartesianIndex(2, 3)))], [(1, OpenState(CartesianIndex(1, 2))), (2, OpenState(CartesianIndex(2, 4)))]]
+└ @ Main C:\dev\advent_of_code\2022\day24\part1.jl:228
+[ Info: Start of timestep 7: Vector{Tuple{Int64, OpenState}}[[(0, OpenState(CartesianIndex(1, 2)))], [(1, OpenState(CartesianIndex(1, 2))), (1, OpenState(CartesianIndex(2, 2)))], [(1, OpenState(CartesianIndex(2, 2))), (2, OpenState(CartesianIndex(1, 2))), (2, OpenState(CartesianIndex(3, 2)))], [(1, OpenState(CartesianIndex(3, 2))), (2, OpenState(CartesianIndex(1, 2)))], [(2, OpenState(CartesianIndex(1, 2))), (2, OpenState(CartesianIndex(2, 2)))], [(2, OpenState(CartesianIndex(1, 2))), (2, OpenState(CartesianIndex(2, 3)))], [(1, OpenState(CartesianIndex(1, 2))), (2, OpenState(CartesianIndex(2, 4)))]]
+┌ Debug: Blizzards start: Tuple{Tuple{Int64, Int64}, FacingDir}[((4, 5), RIGHT), ((5, 2), LEFT), ((4, 6), UP), ((2, 7), LEFT), ((2, 2), RIGHT), ((3, 3), LEFT), ((2, 5), LEFT), ((3, 5), UP), ((2, 3), RIGHT), ((4, 6), LEFT), ((3, 6), LEFT), ((4, 2), RIGHT), ((4, 7), RIGHT), ((3, 3), UP), ((5, 7), RIGHT), ((2, 3), DOWN), ((3, 6), UP), ((3, 7), LEFT), ((3, 4), DOWN)]
+└ @ Main C:\dev\advent_of_code\2022\day24\part1.jl:126
+┌ Debug: blizzard BlizzardState(CartesianIndex(4, 5), RIGHT) moves to CartesianIndex(4, 6)
+└ @ Main C:\dev\advent_of_code\2022\day24\part1.jl:132
+┌ Debug: blizzard BlizzardState(CartesianIndex(5, 2), LEFT) moves to CartesianIndex(5, 7)
+└ @ Main C:\dev\advent_of_code\2022\day24\part1.jl:132
+┌ Debug: blizzard BlizzardState(CartesianIndex(4, 6), UP) moves to CartesianIndex(3, 6)
+└ @ Main C:\dev\advent_of_code\2022\day24\part1.jl:132
+┌ Debug: blizzard BlizzardState(CartesianIndex(2, 7), LEFT) moves to CartesianIndex(2, 6)
+└ @ Main C:\dev\advent_of_code\2022\day24\part1.jl:132
+┌ Debug: blizzard BlizzardState(CartesianIndex(2, 2), RIGHT) moves to CartesianIndex(2, 3)
+└ @ Main C:\dev\advent_of_code\2022\day24\part1.jl:132
+┌ Debug: blizzard BlizzardState(CartesianIndex(3, 3), LEFT) moves to CartesianIndex(3, 2)
+└ @ Main C:\dev\advent_of_code\2022\day24\part1.jl:132
+┌ Debug: blizzard BlizzardState(CartesianIndex(2, 5), LEFT) moves to CartesianIndex(2, 4)
+└ @ Main C:\dev\advent_of_code\2022\day24\part1.jl:132
+┌ Debug: blizzard BlizzardState(CartesianIndex(3, 5), UP) moves to CartesianIndex(2, 5)
+└ @ Main C:\dev\advent_of_code\2022\day24\part1.jl:132
+┌ Debug: blizzard BlizzardState(CartesianIndex(2, 3), RIGHT) moves to CartesianIndex(2, 4)
+└ @ Main C:\dev\advent_of_code\2022\day24\part1.jl:132
+┌ Debug: blizzard BlizzardState(CartesianIndex(4, 6), LEFT) moves to CartesianIndex(4, 5)
+└ @ Main C:\dev\advent_of_code\2022\day24\part1.jl:132
+┌ Debug: blizzard BlizzardState(CartesianIndex(3, 6), LEFT) moves to CartesianIndex(3, 5)
+└ @ Main C:\dev\advent_of_code\2022\day24\part1.jl:132
+┌ Debug: blizzard BlizzardState(CartesianIndex(4, 2), RIGHT) moves to CartesianIndex(4, 3)
+└ @ Main C:\dev\advent_of_code\2022\day24\part1.jl:132
+┌ Debug: blizzard BlizzardState(CartesianIndex(4, 7), RIGHT) moves to CartesianIndex(4, 2)
+└ @ Main C:\dev\advent_of_code\2022\day24\part1.jl:132
+┌ Debug: blizzard BlizzardState(CartesianIndex(3, 3), UP) moves to CartesianIndex(2, 3)
+└ @ Main C:\dev\advent_of_code\2022\day24\part1.jl:132
+┌ Debug: blizzard BlizzardState(CartesianIndex(5, 7), RIGHT) moves to CartesianIndex(5, 2)
+└ @ Main C:\dev\advent_of_code\2022\day24\part1.jl:132
+┌ Debug: blizzard BlizzardState(CartesianIndex(2, 3), DOWN) moves to CartesianIndex(3, 3)
+└ @ Main C:\dev\advent_of_code\2022\day24\part1.jl:132
+┌ Debug: blizzard BlizzardState(CartesianIndex(3, 6), UP) moves to CartesianIndex(2, 6)
+└ @ Main C:\dev\advent_of_code\2022\day24\part1.jl:132
+┌ Debug: blizzard BlizzardState(CartesianIndex(3, 7), LEFT) moves to CartesianIndex(3, 6)
+└ @ Main C:\dev\advent_of_code\2022\day24\part1.jl:132
+┌ Debug: blizzard BlizzardState(CartesianIndex(3, 4), DOWN) moves to CartesianIndex(4, 4)
+└ @ Main C:\dev\advent_of_code\2022\day24\part1.jl:132
+┌ Debug: Blizzards end: Tuple{Tuple{Int64, Int64}, FacingDir}[((4, 6), RIGHT), ((5, 7), LEFT), ((3, 6), UP), ((2, 6), LEFT), ((2, 3), RIGHT), ((3, 2), LEFT), ((2, 4), LEFT), ((2, 5), UP), ((2, 4), RIGHT), ((4, 5), LEFT), ((3, 5), LEFT), ((4, 3), RIGHT), ((4, 2), RIGHT), ((2, 3), UP), ((5, 2), RIGHT), ((3, 3), DOWN), ((2, 6), UP), ((3, 6), LEFT), ((4, 4), DOWN)]
+└ @ Main C:\dev\advent_of_code\2022\day24\part1.jl:160
+┌ Debug: looking for valid options for OpenState(CartesianIndex(1, 2))
+└ @ Main C:\dev\advent_of_code\2022\day24\part1.jl:172
+┌ Debug: Can stand still
+└ @ Main C:\dev\advent_of_code\2022\day24\part1.jl:177
+┌ Debug: Can't move RIGHT, a wall is there
+└ @ Main C:\dev\advent_of_code\2022\day24\part1.jl:210
+┌ Debug: Can move DOWN
+└ @ Main C:\dev\advent_of_code\2022\day24\part1.jl:198
+┌ Debug: Can't move LEFT, a wall is there
+└ @ Main C:\dev\advent_of_code\2022\day24\part1.jl:210
+┌ Debug: looking for valid options for OpenState(CartesianIndex(2, 4))
+└ @ Main C:\dev\advent_of_code\2022\day24\part1.jl:172
+┌ Debug: Can't stand still, a blizzard has arrived
+└ @ Main C:\dev\advent_of_code\2022\day24\part1.jl:181
+┌ Debug: Can't move UP, a wall is there
+└ @ Main C:\dev\advent_of_code\2022\day24\part1.jl:210
+┌ Debug: Can't move RIGHT, a blizzard is there
+└ @ Main C:\dev\advent_of_code\2022\day24\part1.jl:208
+┌ Debug: Can move DOWN
+└ @ Main C:\dev\advent_of_code\2022\day24\part1.jl:198
+┌ Debug: Can't move LEFT, a blizzard is there
+└ @ Main C:\dev\advent_of_code\2022\day24\part1.jl:208
+[ Info: 0 paths culled, 3 remain.
+┌ Debug: End of timestep 8: Vector{Tuple{Int64, OpenState}}[[(0, OpenState(CartesianIndex(1, 2)))], [(1, OpenState(CartesianIndex(1, 2))), (1, OpenState(CartesianIndex(2, 2)))], [(1, OpenState(CartesianIndex(2, 2))), (2, OpenState(CartesianIndex(1, 2))), (2, OpenState(CartesianIndex(3, 2)))], [(1, OpenState(CartesianIndex(3, 2))), (2, OpenState(CartesianIndex(1, 2)))], [(2, OpenState(CartesianIndex(1, 2))), (2, OpenState(CartesianIndex(2, 2)))], [(2, OpenState(CartesianIndex(1, 2))), (2, OpenState(CartesianIndex(2, 3)))], [(1, OpenState(CartesianIndex(1, 2))), (2, OpenState(CartesianIndex(2, 4)))], [(1, OpenState(CartesianIndex(1, 2))), (1, OpenState(CartesianIndex(2, 2))), (2, OpenState(CartesianIndex(3, 4)))]]
+└ @ Main C:\dev\advent_of_code\2022\day24\part1.jl:228
+[ Info: Start of timestep 8: Vector{Tuple{Int64, OpenState}}[[(0, OpenState(CartesianIndex(1, 2)))], [(1, OpenState(CartesianIndex(1, 2))), (1, OpenState(CartesianIndex(2, 2)))], [(1, OpenState(CartesianIndex(2, 2))), (2, OpenState(CartesianIndex(1, 2))), (2, OpenState(CartesianIndex(3, 2)))], [(1, OpenState(CartesianIndex(3, 2))), (2, OpenState(CartesianIndex(1, 2)))], [(2, OpenState(CartesianIndex(1, 2))), (2, OpenState(CartesianIndex(2, 2)))], [(2, OpenState(CartesianIndex(1, 2))), (2, OpenState(CartesianIndex(2, 3)))], [(1, OpenState(CartesianIndex(1, 2))), (2, OpenState(CartesianIndex(2, 4)))], [(1, OpenState(CartesianIndex(1, 2))), (1, OpenState(CartesianIndex(2, 2))), (2, OpenState(CartesianIndex(3, 4)))]]
+┌ Debug: Blizzards start: Tuple{Tuple{Int64, Int64}, FacingDir}[((4, 6), RIGHT), ((5, 7), LEFT), ((3, 6), UP), ((2, 6), LEFT), ((2, 3), RIGHT), ((3, 2), LEFT), ((2, 4), LEFT), ((2, 5), UP), ((2, 4), RIGHT), ((4, 5), LEFT), ((3, 5), LEFT), ((4, 3), RIGHT), ((4, 2), RIGHT), ((2, 3), UP), ((5, 2), RIGHT), ((3, 3), DOWN), ((2, 6), UP), ((3, 6), LEFT), ((4, 4), DOWN)]
+└ @ Main C:\dev\advent_of_code\2022\day24\part1.jl:126
+┌ Debug: blizzard BlizzardState(CartesianIndex(4, 6), RIGHT) moves to CartesianIndex(4, 7)
+└ @ Main C:\dev\advent_of_code\2022\day24\part1.jl:132
+┌ Debug: blizzard BlizzardState(CartesianIndex(5, 7), LEFT) moves to CartesianIndex(5, 6)
+└ @ Main C:\dev\advent_of_code\2022\day24\part1.jl:132
+┌ Debug: blizzard BlizzardState(CartesianIndex(3, 6), UP) moves to CartesianIndex(2, 6)
+└ @ Main C:\dev\advent_of_code\2022\day24\part1.jl:132
+┌ Debug: blizzard BlizzardState(CartesianIndex(2, 6), LEFT) moves to CartesianIndex(2, 5)
+└ @ Main C:\dev\advent_of_code\2022\day24\part1.jl:132
+┌ Debug: blizzard BlizzardState(CartesianIndex(2, 3), RIGHT) moves to CartesianIndex(2, 4)
+└ @ Main C:\dev\advent_of_code\2022\day24\part1.jl:132
+┌ Debug: blizzard BlizzardState(CartesianIndex(3, 2), LEFT) moves to CartesianIndex(3, 7)
+└ @ Main C:\dev\advent_of_code\2022\day24\part1.jl:132
+┌ Debug: blizzard BlizzardState(CartesianIndex(2, 4), LEFT) moves to CartesianIndex(2, 3)
+└ @ Main C:\dev\advent_of_code\2022\day24\part1.jl:132
+┌ Debug: blizzard BlizzardState(CartesianIndex(2, 5), UP) moves to CartesianIndex(5, 5)
+└ @ Main C:\dev\advent_of_code\2022\day24\part1.jl:132
+┌ Debug: blizzard BlizzardState(CartesianIndex(2, 4), RIGHT) moves to CartesianIndex(2, 5)
+└ @ Main C:\dev\advent_of_code\2022\day24\part1.jl:132
+┌ Debug: blizzard BlizzardState(CartesianIndex(4, 5), LEFT) moves to CartesianIndex(4, 4)
+└ @ Main C:\dev\advent_of_code\2022\day24\part1.jl:132
+┌ Debug: blizzard BlizzardState(CartesianIndex(3, 5), LEFT) moves to CartesianIndex(3, 4)
+└ @ Main C:\dev\advent_of_code\2022\day24\part1.jl:132
+┌ Debug: blizzard BlizzardState(CartesianIndex(4, 3), RIGHT) moves to CartesianIndex(4, 4)
+└ @ Main C:\dev\advent_of_code\2022\day24\part1.jl:132
+┌ Debug: blizzard BlizzardState(CartesianIndex(4, 2), RIGHT) moves to CartesianIndex(4, 3)
+└ @ Main C:\dev\advent_of_code\2022\day24\part1.jl:132
+┌ Debug: blizzard BlizzardState(CartesianIndex(2, 3), UP) moves to CartesianIndex(5, 3)
+└ @ Main C:\dev\advent_of_code\2022\day24\part1.jl:132
+┌ Debug: blizzard BlizzardState(CartesianIndex(5, 2), RIGHT) moves to CartesianIndex(5, 3)
+└ @ Main C:\dev\advent_of_code\2022\day24\part1.jl:132
+┌ Debug: blizzard BlizzardState(CartesianIndex(3, 3), DOWN) moves to CartesianIndex(4, 3)
+└ @ Main C:\dev\advent_of_code\2022\day24\part1.jl:132
+┌ Debug: blizzard BlizzardState(CartesianIndex(2, 6), UP) moves to CartesianIndex(5, 6)
+└ @ Main C:\dev\advent_of_code\2022\day24\part1.jl:132
+┌ Debug: blizzard BlizzardState(CartesianIndex(3, 6), LEFT) moves to CartesianIndex(3, 5)
+└ @ Main C:\dev\advent_of_code\2022\day24\part1.jl:132
+┌ Debug: blizzard BlizzardState(CartesianIndex(4, 4), DOWN) moves to CartesianIndex(5, 4)
+└ @ Main C:\dev\advent_of_code\2022\day24\part1.jl:132
+┌ Debug: Blizzards end: Tuple{Tuple{Int64, Int64}, FacingDir}[((4, 7), RIGHT), ((5, 6), LEFT), ((2, 6), UP), ((2, 5), LEFT), ((2, 4), RIGHT), ((3, 7), LEFT), ((2, 3), LEFT), ((5, 5), UP), ((2, 5), RIGHT), ((4, 4), LEFT), ((3, 4), LEFT), ((4, 4), RIGHT), ((4, 3), RIGHT), ((5, 3), UP), ((5, 3), RIGHT), ((4, 3), DOWN), ((5, 6), UP), ((3, 5), LEFT), ((5, 4), DOWN)]
+└ @ Main C:\dev\advent_of_code\2022\day24\part1.jl:160
+┌ Debug: looking for valid options for OpenState(CartesianIndex(1, 2))
+└ @ Main C:\dev\advent_of_code\2022\day24\part1.jl:172
+┌ Debug: Can stand still
+└ @ Main C:\dev\advent_of_code\2022\day24\part1.jl:177
+┌ Debug: Can't move RIGHT, a wall is there
+└ @ Main C:\dev\advent_of_code\2022\day24\part1.jl:210
+┌ Debug: Can move DOWN
+└ @ Main C:\dev\advent_of_code\2022\day24\part1.jl:198
+┌ Debug: Can't move LEFT, a wall is there
+└ @ Main C:\dev\advent_of_code\2022\day24\part1.jl:210
+┌ Debug: looking for valid options for OpenState(CartesianIndex(2, 2))
+└ @ Main C:\dev\advent_of_code\2022\day24\part1.jl:172
+┌ Debug: Can stand still
+└ @ Main C:\dev\advent_of_code\2022\day24\part1.jl:177
+┌ Debug: Can move UP
+└ @ Main C:\dev\advent_of_code\2022\day24\part1.jl:198
+┌ Debug: Can't move RIGHT, a blizzard is there
+└ @ Main C:\dev\advent_of_code\2022\day24\part1.jl:208
+┌ Debug: Can move DOWN
+└ @ Main C:\dev\advent_of_code\2022\day24\part1.jl:198
+┌ Debug: Can't move LEFT, a wall is there
+└ @ Main C:\dev\advent_of_code\2022\day24\part1.jl:210
+┌ Debug: looking for valid options for OpenState(CartesianIndex(3, 4))
+└ @ Main C:\dev\advent_of_code\2022\day24\part1.jl:172
+┌ Debug: Can't stand still, a blizzard has arrived
+└ @ Main C:\dev\advent_of_code\2022\day24\part1.jl:181
+┌ Debug: Can't move UP, a blizzard is there
+└ @ Main C:\dev\advent_of_code\2022\day24\part1.jl:208
+┌ Debug: Can't move RIGHT, a blizzard is there
+└ @ Main C:\dev\advent_of_code\2022\day24\part1.jl:208
+┌ Debug: Can't move DOWN, a blizzard is there
+└ @ Main C:\dev\advent_of_code\2022\day24\part1.jl:208
+┌ Debug: Can move LEFT
+└ @ Main C:\dev\advent_of_code\2022\day24\part1.jl:198
+[ Info: 2 paths culled, 4 remain.
+┌ Debug: End of timestep 9: Vector{Tuple{Int64, OpenState}}[[(0, OpenState(CartesianIndex(1, 2)))], [(1, OpenState(CartesianIndex(1, 2))), (1, OpenState(CartesianIndex(2, 2)))], [(1, OpenState(CartesianIndex(2, 2))), (2, OpenState(CartesianIndex(1, 2))), (2, OpenState(CartesianIndex(3, 2)))], [(1, OpenState(CartesianIndex(3, 2))), (2, OpenState(CartesianIndex(1, 2)))], [(2, OpenState(CartesianIndex(1, 2))), (2, OpenState(CartesianIndex(2, 2)))], [(2, OpenState(CartesianIndex(1, 2))), (2, OpenState(CartesianIndex(2, 3)))], [(1, OpenState(CartesianIndex(1, 2))), (2, OpenState(CartesianIndex(2, 4)))], [(1, OpenState(CartesianIndex(1, 2))), (1, OpenState(CartesianIndex(2, 2))), (2, OpenState(CartesianIndex(3, 4)))], [(1, OpenState(CartesianIndex(2, 2))), (2, OpenState(CartesianIndex(1, 2))), (2, OpenState(CartesianIndex(3, 2))), (3, OpenState(CartesianIndex(3, 3)))]]
+└ @ Main C:\dev\advent_of_code\2022\day24\part1.jl:228
+[ Info: Start of timestep 9: Vector{Tuple{Int64, OpenState}}[[(0, OpenState(CartesianIndex(1, 2)))], [(1, OpenState(CartesianIndex(1, 2))), (1, OpenState(CartesianIndex(2, 2)))], [(1, OpenState(CartesianIndex(2, 2))), (2, OpenState(CartesianIndex(1, 2))), (2, OpenState(CartesianIndex(3, 2)))], [(1, OpenState(CartesianIndex(3, 2))), (2, OpenState(CartesianIndex(1, 2)))], [(2, OpenState(CartesianIndex(1, 2))), (2, OpenState(CartesianIndex(2, 2)))], [(2, OpenState(CartesianIndex(1, 2))), (2, OpenState(CartesianIndex(2, 3)))], [(1, OpenState(CartesianIndex(1, 2))), (2, OpenState(CartesianIndex(2, 4)))], [(1, OpenState(CartesianIndex(1, 2))), (1, OpenState(CartesianIndex(2, 2))), (2, OpenState(CartesianIndex(3, 4)))], [(1, OpenState(CartesianIndex(2, 2))), (2, OpenState(CartesianIndex(1, 2))), (2, OpenState(CartesianIndex(3, 2))), (3, OpenState(CartesianIndex(3, 3)))]]
+┌ Debug: Blizzards start: Tuple{Tuple{Int64, Int64}, FacingDir}[((4, 7), RIGHT), ((5, 6), LEFT), ((2, 6), UP), ((2, 5), LEFT), ((2, 4), RIGHT), ((3, 7), LEFT), ((2, 3), LEFT), ((5, 5), UP), ((2, 5), RIGHT), ((4, 4), LEFT), ((3, 4), LEFT), ((4, 4), RIGHT), ((4, 3), RIGHT), ((5, 3), UP), ((5, 3), RIGHT), ((4, 3), DOWN), ((5, 6), UP), ((3, 5), LEFT), ((5, 4), DOWN)]
+└ @ Main C:\dev\advent_of_code\2022\day24\part1.jl:126
+┌ Debug: blizzard BlizzardState(CartesianIndex(4, 7), RIGHT) moves to CartesianIndex(4, 2)
+└ @ Main C:\dev\advent_of_code\2022\day24\part1.jl:132
+┌ Debug: blizzard BlizzardState(CartesianIndex(5, 6), LEFT) moves to CartesianIndex(5, 5)
+└ @ Main C:\dev\advent_of_code\2022\day24\part1.jl:132
+┌ Debug: blizzard BlizzardState(CartesianIndex(2, 6), UP) moves to CartesianIndex(5, 6)
+└ @ Main C:\dev\advent_of_code\2022\day24\part1.jl:132
+┌ Debug: blizzard BlizzardState(CartesianIndex(2, 5), LEFT) moves to CartesianIndex(2, 4)
+└ @ Main C:\dev\advent_of_code\2022\day24\part1.jl:132
+┌ Debug: blizzard BlizzardState(CartesianIndex(2, 4), RIGHT) moves to CartesianIndex(2, 5)
+└ @ Main C:\dev\advent_of_code\2022\day24\part1.jl:132
+┌ Debug: blizzard BlizzardState(CartesianIndex(3, 7), LEFT) moves to CartesianIndex(3, 6)
+└ @ Main C:\dev\advent_of_code\2022\day24\part1.jl:132
+┌ Debug: blizzard BlizzardState(CartesianIndex(2, 3), LEFT) moves to CartesianIndex(2, 2)
+└ @ Main C:\dev\advent_of_code\2022\day24\part1.jl:132
+┌ Debug: blizzard BlizzardState(CartesianIndex(5, 5), UP) moves to CartesianIndex(4, 5)
+└ @ Main C:\dev\advent_of_code\2022\day24\part1.jl:132
+┌ Debug: blizzard BlizzardState(CartesianIndex(2, 5), RIGHT) moves to CartesianIndex(2, 6)
+└ @ Main C:\dev\advent_of_code\2022\day24\part1.jl:132
+┌ Debug: blizzard BlizzardState(CartesianIndex(4, 4), LEFT) moves to CartesianIndex(4, 3)
+└ @ Main C:\dev\advent_of_code\2022\day24\part1.jl:132
+┌ Debug: blizzard BlizzardState(CartesianIndex(3, 4), LEFT) moves to CartesianIndex(3, 3)
+└ @ Main C:\dev\advent_of_code\2022\day24\part1.jl:132
+┌ Debug: blizzard BlizzardState(CartesianIndex(4, 4), RIGHT) moves to CartesianIndex(4, 5)
+└ @ Main C:\dev\advent_of_code\2022\day24\part1.jl:132
+┌ Debug: blizzard BlizzardState(CartesianIndex(4, 3), RIGHT) moves to CartesianIndex(4, 4)
+└ @ Main C:\dev\advent_of_code\2022\day24\part1.jl:132
+┌ Debug: blizzard BlizzardState(CartesianIndex(5, 3), UP) moves to CartesianIndex(4, 3)
+└ @ Main C:\dev\advent_of_code\2022\day24\part1.jl:132
+┌ Debug: blizzard BlizzardState(CartesianIndex(5, 3), RIGHT) moves to CartesianIndex(5, 4)
+└ @ Main C:\dev\advent_of_code\2022\day24\part1.jl:132
+┌ Debug: blizzard BlizzardState(CartesianIndex(4, 3), DOWN) moves to CartesianIndex(5, 3)
+└ @ Main C:\dev\advent_of_code\2022\day24\part1.jl:132
+┌ Debug: blizzard BlizzardState(CartesianIndex(5, 6), UP) moves to CartesianIndex(4, 6)
+└ @ Main C:\dev\advent_of_code\2022\day24\part1.jl:132
+┌ Debug: blizzard BlizzardState(CartesianIndex(3, 5), LEFT) moves to CartesianIndex(3, 4)
+└ @ Main C:\dev\advent_of_code\2022\day24\part1.jl:132
+┌ Debug: blizzard BlizzardState(CartesianIndex(5, 4), DOWN) moves to CartesianIndex(2, 4)
+└ @ Main C:\dev\advent_of_code\2022\day24\part1.jl:132
+┌ Debug: Blizzards end: Tuple{Tuple{Int64, Int64}, FacingDir}[((4, 2), RIGHT), ((5, 5), LEFT), ((5, 6), UP), ((2, 4), LEFT), ((2, 5), RIGHT), ((3, 6), LEFT), ((2, 2), LEFT), ((4, 5), UP), ((2, 6), RIGHT), ((4, 3), LEFT), ((3, 3), LEFT), ((4, 5), RIGHT), ((4, 4), RIGHT), ((4, 3), UP), ((5, 4), RIGHT), ((5, 3), DOWN), ((4, 6), UP), ((3, 4), LEFT), ((2, 4), DOWN)]
+└ @ Main C:\dev\advent_of_code\2022\day24\part1.jl:160
+┌ Debug: looking for valid options for OpenState(CartesianIndex(2, 2))
+└ @ Main C:\dev\advent_of_code\2022\day24\part1.jl:172
+┌ Debug: Can't stand still, a blizzard has arrived
+└ @ Main C:\dev\advent_of_code\2022\day24\part1.jl:181
+┌ Debug: Can move UP
+└ @ Main C:\dev\advent_of_code\2022\day24\part1.jl:198
+┌ Debug: Can move RIGHT
+└ @ Main C:\dev\advent_of_code\2022\day24\part1.jl:198
+┌ Debug: Can move DOWN
+└ @ Main C:\dev\advent_of_code\2022\day24\part1.jl:198
+┌ Debug: Can't move LEFT, a wall is there
+└ @ Main C:\dev\advent_of_code\2022\day24\part1.jl:210
+┌ Debug: looking for valid options for OpenState(CartesianIndex(1, 2))
+└ @ Main C:\dev\advent_of_code\2022\day24\part1.jl:172
+┌ Debug: Can stand still
+└ @ Main C:\dev\advent_of_code\2022\day24\part1.jl:177
+┌ Debug: Can't move RIGHT, a wall is there
+└ @ Main C:\dev\advent_of_code\2022\day24\part1.jl:210
+┌ Debug: Can't move DOWN, a blizzard is there
+└ @ Main C:\dev\advent_of_code\2022\day24\part1.jl:208
+┌ Debug: Can't move LEFT, a wall is there
+└ @ Main C:\dev\advent_of_code\2022\day24\part1.jl:210
+┌ Debug: looking for valid options for OpenState(CartesianIndex(3, 2))
+└ @ Main C:\dev\advent_of_code\2022\day24\part1.jl:172
+┌ Debug: Can stand still
+└ @ Main C:\dev\advent_of_code\2022\day24\part1.jl:177
+┌ Debug: Can't move UP, a blizzard is there
+└ @ Main C:\dev\advent_of_code\2022\day24\part1.jl:208
+┌ Debug: Can't move RIGHT, a blizzard is there
+└ @ Main C:\dev\advent_of_code\2022\day24\part1.jl:208
+┌ Debug: Can't move DOWN, a blizzard is there
+└ @ Main C:\dev\advent_of_code\2022\day24\part1.jl:208
+┌ Debug: Can't move LEFT, a wall is there
+└ @ Main C:\dev\advent_of_code\2022\day24\part1.jl:210
+┌ Debug: looking for valid options for OpenState(CartesianIndex(3, 3))
+└ @ Main C:\dev\advent_of_code\2022\day24\part1.jl:172
+┌ Debug: Can't stand still, a blizzard has arrived
+└ @ Main C:\dev\advent_of_code\2022\day24\part1.jl:181
+┌ Debug: Can move UP
+└ @ Main C:\dev\advent_of_code\2022\day24\part1.jl:198
+┌ Debug: Can't move RIGHT, a blizzard is there
+└ @ Main C:\dev\advent_of_code\2022\day24\part1.jl:208
+┌ Debug: Can't move DOWN, a blizzard is there
+└ @ Main C:\dev\advent_of_code\2022\day24\part1.jl:208
+┌ Debug: Can move LEFT
+└ @ Main C:\dev\advent_of_code\2022\day24\part1.jl:198
+[ Info: 3 paths culled, 4 remain.
+┌ Debug: End of timestep 10: Vector{Tuple{Int64, OpenState}}[[(0, OpenState(CartesianIndex(1, 2)))], [(1, OpenState(CartesianIndex(1, 2))), (1, OpenState(CartesianIndex(2, 2)))], [(1, OpenState(CartesianIndex(2, 2))), (2, OpenState(CartesianIndex(1, 2))), (2, OpenState(CartesianIndex(3, 2)))], [(1, OpenState(CartesianIndex(3, 2))), (2, OpenState(CartesianIndex(1, 2)))], [(2, OpenState(CartesianIndex(1, 2))), (2, OpenState(CartesianIndex(2, 2)))], [(2, OpenState(CartesianIndex(1, 2))), (2, OpenState(CartesianIndex(2, 3)))], [(1, OpenState(CartesianIndex(1, 2))), (2, OpenState(CartesianIndex(2, 4)))], [(1, OpenState(CartesianIndex(1, 2))), (1, OpenState(CartesianIndex(2, 2))), (2, OpenState(CartesianIndex(3, 4)))], [(1, OpenState(CartesianIndex(2, 2))), (2, OpenState(CartesianIndex(1, 2))), (2, OpenState(CartesianIndex(3, 2))), (3, OpenState(CartesianIndex(3, 3)))], [(1, OpenState(CartesianIndex(2, 3))), (2, OpenState(CartesianIndex(1, 2))), (4, OpenState(CartesianIndex(2, 3))), (4, OpenState(CartesianIndex(3, 2)))]]
+└ @ Main C:\dev\advent_of_code\2022\day24\part1.jl:228
+[ Info: Start of timestep 10: Vector{Tuple{Int64, OpenState}}[[(0, OpenState(CartesianIndex(1, 2)))], [(1, OpenState(CartesianIndex(1, 2))), (1, OpenState(CartesianIndex(2, 2)))], [(1, OpenState(CartesianIndex(2, 2))), (2, OpenState(CartesianIndex(1, 2))), (2, OpenState(CartesianIndex(3, 2)))], [(1, OpenState(CartesianIndex(3, 2))), (2, OpenState(CartesianIndex(1, 2)))], [(2, OpenState(CartesianIndex(1, 2))), (2, OpenState(CartesianIndex(2, 2)))], [(2, OpenState(CartesianIndex(1, 2))), (2, OpenState(CartesianIndex(2, 3)))], [(1, OpenState(CartesianIndex(1, 2))), (2, OpenState(CartesianIndex(2, 4)))], [(1, OpenState(CartesianIndex(1, 2))), (1, OpenState(CartesianIndex(2, 2))), (2, OpenState(CartesianIndex(3, 4)))], [(1, OpenState(CartesianIndex(2, 2))), (2, OpenState(CartesianIndex(1, 2))), (2, OpenState(CartesianIndex(3, 2))), (3, OpenState(CartesianIndex(3, 3)))], [(1, OpenState(CartesianIndex(2, 3))), (2, OpenState(CartesianIndex(1, 2))), (4, OpenState(CartesianIndex(2, 3))), (4, OpenState(CartesianIndex(3, 2)))]]
+┌ Debug: Blizzards start: Tuple{Tuple{Int64, Int64}, FacingDir}[((4, 2), RIGHT), ((5, 5), LEFT), ((5, 6), UP), ((2, 4), LEFT), ((2, 5), RIGHT), ((3, 6), LEFT), ((2, 2), LEFT), ((4, 5), UP), ((2, 6), RIGHT), ((4, 3), LEFT), ((3, 3), LEFT), ((4, 5), RIGHT), ((4, 4), RIGHT), ((4, 3), UP), ((5, 4), RIGHT), ((5, 3), DOWN), ((4, 6), UP), ((3, 4), LEFT), ((2, 4), DOWN)]
+└ @ Main C:\dev\advent_of_code\2022\day24\part1.jl:126
+┌ Debug: blizzard BlizzardState(CartesianIndex(4, 2), RIGHT) moves to CartesianIndex(4, 3)
+└ @ Main C:\dev\advent_of_code\2022\day24\part1.jl:132
+┌ Debug: blizzard BlizzardState(CartesianIndex(5, 5), LEFT) moves to CartesianIndex(5, 4)
+└ @ Main C:\dev\advent_of_code\2022\day24\part1.jl:132
+┌ Debug: blizzard BlizzardState(CartesianIndex(5, 6), UP) moves to CartesianIndex(4, 6)
+└ @ Main C:\dev\advent_of_code\2022\day24\part1.jl:132
+┌ Debug: blizzard BlizzardState(CartesianIndex(2, 4), LEFT) moves to CartesianIndex(2, 3)
+└ @ Main C:\dev\advent_of_code\2022\day24\part1.jl:132
+┌ Debug: blizzard BlizzardState(CartesianIndex(2, 5), RIGHT) moves to CartesianIndex(2, 6)
+└ @ Main C:\dev\advent_of_code\2022\day24\part1.jl:132
+┌ Debug: blizzard BlizzardState(CartesianIndex(3, 6), LEFT) moves to CartesianIndex(3, 5)
+└ @ Main C:\dev\advent_of_code\2022\day24\part1.jl:132
+┌ Debug: blizzard BlizzardState(CartesianIndex(2, 2), LEFT) moves to CartesianIndex(2, 7)
+└ @ Main C:\dev\advent_of_code\2022\day24\part1.jl:132
+┌ Debug: blizzard BlizzardState(CartesianIndex(4, 5), UP) moves to CartesianIndex(3, 5)
+└ @ Main C:\dev\advent_of_code\2022\day24\part1.jl:132
+┌ Debug: blizzard BlizzardState(CartesianIndex(2, 6), RIGHT) moves to CartesianIndex(2, 7)
+└ @ Main C:\dev\advent_of_code\2022\day24\part1.jl:132
+┌ Debug: blizzard BlizzardState(CartesianIndex(4, 3), LEFT) moves to CartesianIndex(4, 2)
+└ @ Main C:\dev\advent_of_code\2022\day24\part1.jl:132
+┌ Debug: blizzard BlizzardState(CartesianIndex(3, 3), LEFT) moves to CartesianIndex(3, 2)
+└ @ Main C:\dev\advent_of_code\2022\day24\part1.jl:132
+┌ Debug: blizzard BlizzardState(CartesianIndex(4, 5), RIGHT) moves to CartesianIndex(4, 6)
+└ @ Main C:\dev\advent_of_code\2022\day24\part1.jl:132
+┌ Debug: blizzard BlizzardState(CartesianIndex(4, 4), RIGHT) moves to CartesianIndex(4, 5)
+└ @ Main C:\dev\advent_of_code\2022\day24\part1.jl:132
+┌ Debug: blizzard BlizzardState(CartesianIndex(4, 3), UP) moves to CartesianIndex(3, 3)
+└ @ Main C:\dev\advent_of_code\2022\day24\part1.jl:132
+┌ Debug: blizzard BlizzardState(CartesianIndex(5, 4), RIGHT) moves to CartesianIndex(5, 5)
+└ @ Main C:\dev\advent_of_code\2022\day24\part1.jl:132
+┌ Debug: blizzard BlizzardState(CartesianIndex(5, 3), DOWN) moves to CartesianIndex(2, 3)
+└ @ Main C:\dev\advent_of_code\2022\day24\part1.jl:132
+┌ Debug: blizzard BlizzardState(CartesianIndex(4, 6), UP) moves to CartesianIndex(3, 6)
+└ @ Main C:\dev\advent_of_code\2022\day24\part1.jl:132
+┌ Debug: blizzard BlizzardState(CartesianIndex(3, 4), LEFT) moves to CartesianIndex(3, 3)
+└ @ Main C:\dev\advent_of_code\2022\day24\part1.jl:132
+┌ Debug: blizzard BlizzardState(CartesianIndex(2, 4), DOWN) moves to CartesianIndex(3, 4)
+└ @ Main C:\dev\advent_of_code\2022\day24\part1.jl:132
+┌ Debug: Blizzards end: Tuple{Tuple{Int64, Int64}, FacingDir}[((4, 3), RIGHT), ((5, 4), LEFT), ((4, 6), UP), ((2, 3), LEFT), ((2, 6), RIGHT), ((3, 5), LEFT), ((2, 7), LEFT), ((3, 5), UP), ((2, 7), RIGHT), ((4, 2), LEFT), ((3, 2), LEFT), ((4, 6), RIGHT), ((4, 5), RIGHT), ((3, 3), UP), ((5, 5), RIGHT), ((2, 3), DOWN), ((3, 6), UP), ((3, 3), LEFT), ((3, 4), DOWN)]
+└ @ Main C:\dev\advent_of_code\2022\day24\part1.jl:160
+┌ Debug: looking for valid options for OpenState(CartesianIndex(2, 3))
+└ @ Main C:\dev\advent_of_code\2022\day24\part1.jl:172
+┌ Debug: Can't stand still, a blizzard has arrived
+└ @ Main C:\dev\advent_of_code\2022\day24\part1.jl:181
+┌ Debug: Can't move UP, a wall is there
+└ @ Main C:\dev\advent_of_code\2022\day24\part1.jl:210
+┌ Debug: Can move RIGHT
+└ @ Main C:\dev\advent_of_code\2022\day24\part1.jl:198
+┌ Debug: Can't move DOWN, a blizzard is there
+└ @ Main C:\dev\advent_of_code\2022\day24\part1.jl:208
+┌ Debug: Can move LEFT
+└ @ Main C:\dev\advent_of_code\2022\day24\part1.jl:198
+┌ Debug: looking for valid options for OpenState(CartesianIndex(1, 2))
+└ @ Main C:\dev\advent_of_code\2022\day24\part1.jl:172
+┌ Debug: Can stand still
+└ @ Main C:\dev\advent_of_code\2022\day24\part1.jl:177
+┌ Debug: Can't move RIGHT, a wall is there
+└ @ Main C:\dev\advent_of_code\2022\day24\part1.jl:210
+┌ Debug: Can move DOWN
+└ @ Main C:\dev\advent_of_code\2022\day24\part1.jl:198
+┌ Debug: Can't move LEFT, a wall is there
+└ @ Main C:\dev\advent_of_code\2022\day24\part1.jl:210
+┌ Debug: looking for valid options for OpenState(CartesianIndex(2, 3))
+└ @ Main C:\dev\advent_of_code\2022\day24\part1.jl:172
+┌ Debug: Can't stand still, a blizzard has arrived
+└ @ Main C:\dev\advent_of_code\2022\day24\part1.jl:181
+┌ Debug: Can't move UP, a wall is there
+└ @ Main C:\dev\advent_of_code\2022\day24\part1.jl:210
+┌ Debug: Can move RIGHT
+└ @ Main C:\dev\advent_of_code\2022\day24\part1.jl:198
+┌ Debug: Can't move DOWN, a blizzard is there
+└ @ Main C:\dev\advent_of_code\2022\day24\part1.jl:208
+┌ Debug: Can move LEFT
+└ @ Main C:\dev\advent_of_code\2022\day24\part1.jl:198
+┌ Debug: looking for valid options for OpenState(CartesianIndex(3, 2))
+└ @ Main C:\dev\advent_of_code\2022\day24\part1.jl:172
+┌ Debug: Can't stand still, a blizzard has arrived
+└ @ Main C:\dev\advent_of_code\2022\day24\part1.jl:181
+┌ Debug: Can move UP
+└ @ Main C:\dev\advent_of_code\2022\day24\part1.jl:198
+┌ Debug: Can't move RIGHT, a blizzard is there
+└ @ Main C:\dev\advent_of_code\2022\day24\part1.jl:208
+┌ Debug: Can't move DOWN, a blizzard is there
+└ @ Main C:\dev\advent_of_code\2022\day24\part1.jl:208
+┌ Debug: Can't move LEFT, a wall is there
+└ @ Main C:\dev\advent_of_code\2022\day24\part1.jl:210
+[ Info: 3 paths culled, 4 remain.
+┌ Debug: End of timestep 11: Vector{Tuple{Int64, OpenState}}[[(0, OpenState(CartesianIndex(1, 2)))], [(1, OpenState(CartesianIndex(1, 2))), (1, OpenState(CartesianIndex(2, 2)))], [(1, OpenState(CartesianIndex(2, 2))), (2, OpenState(CartesianIndex(1, 2))), (2, OpenState(CartesianIndex(3, 2)))], [(1, OpenState(CartesianIndex(3, 2))), (2, OpenState(CartesianIndex(1, 2)))], [(2, OpenState(CartesianIndex(1, 2))), (2, OpenState(CartesianIndex(2, 2)))], [(2, OpenState(CartesianIndex(1, 2))), (2, OpenState(CartesianIndex(2, 3)))], [(1, OpenState(CartesianIndex(1, 2))), (2, OpenState(CartesianIndex(2, 4)))], [(1, OpenState(CartesianIndex(1, 2))), (1, OpenState(CartesianIndex(2, 2))), (2, OpenState(CartesianIndex(3, 4)))], [(1, OpenState(CartesianIndex(2, 2))), (2, OpenState(CartesianIndex(1, 2))), (2, OpenState(CartesianIndex(3, 2))), (3, OpenState(CartesianIndex(3, 3)))], [(1, OpenState(CartesianIndex(2, 3))), (2, OpenState(CartesianIndex(1, 2))), (4, OpenState(CartesianIndex(2, 3))), (4, OpenState(CartesianIndex(3, 2)))], [(1, OpenState(CartesianIndex(2, 2))), (2, OpenState(CartesianIndex(1, 2))), (3, OpenState(CartesianIndex(2, 4))), (4, OpenState(CartesianIndex(2, 2)))]]
+└ @ Main C:\dev\advent_of_code\2022\day24\part1.jl:228
+[ Info: Start of timestep 11: Vector{Tuple{Int64, OpenState}}[[(0, OpenState(CartesianIndex(1, 2)))], [(1, OpenState(CartesianIndex(1, 2))), (1, OpenState(CartesianIndex(2, 2)))], [(1, OpenState(CartesianIndex(2, 2))), (2, OpenState(CartesianIndex(1, 2))), (2, OpenState(CartesianIndex(3, 2)))], [(1, OpenState(CartesianIndex(3, 2))), (2, OpenState(CartesianIndex(1, 2)))], [(2, OpenState(CartesianIndex(1, 2))), (2, OpenState(CartesianIndex(2, 2)))], [(2, OpenState(CartesianIndex(1, 2))), (2, OpenState(CartesianIndex(2, 3)))], [(1, OpenState(CartesianIndex(1, 2))), (2, OpenState(CartesianIndex(2, 4)))], [(1, OpenState(CartesianIndex(1, 2))), (1, OpenState(CartesianIndex(2, 2))), (2, OpenState(CartesianIndex(3, 4)))], [(1, OpenState(CartesianIndex(2, 2))), (2, OpenState(CartesianIndex(1, 2))), (2, OpenState(CartesianIndex(3, 2))), (3, OpenState(CartesianIndex(3, 3)))], [(1, OpenState(CartesianIndex(2, 3))), (2, OpenState(CartesianIndex(1, 2))), (4, OpenState(CartesianIndex(2, 3))), (4, OpenState(CartesianIndex(3, 2)))], [(1, OpenState(CartesianIndex(2, 2))), (2, OpenState(CartesianIndex(1, 2))), (3, OpenState(CartesianIndex(2, 4))), (4, OpenState(CartesianIndex(2, 2)))]]
+┌ Debug: Blizzards start: Tuple{Tuple{Int64, Int64}, FacingDir}[((4, 3), RIGHT), ((5, 4), LEFT), ((4, 6), UP), ((2, 3), LEFT), ((2, 6), RIGHT), ((3, 5), LEFT), ((2, 7), LEFT), ((3, 5), UP), ((2, 7), RIGHT), ((4, 2), LEFT), ((3, 2), LEFT), ((4, 6), RIGHT), ((4, 5), RIGHT), ((3, 3), UP), ((5, 5), RIGHT), ((2, 3), DOWN), ((3, 6), UP), ((3, 3), LEFT), ((3, 4), DOWN)]
+└ @ Main C:\dev\advent_of_code\2022\day24\part1.jl:126
+┌ Debug: blizzard BlizzardState(CartesianIndex(4, 3), RIGHT) moves to CartesianIndex(4, 4)
+└ @ Main C:\dev\advent_of_code\2022\day24\part1.jl:132
+┌ Debug: blizzard BlizzardState(CartesianIndex(5, 4), LEFT) moves to CartesianIndex(5, 3)
+└ @ Main C:\dev\advent_of_code\2022\day24\part1.jl:132
+┌ Debug: blizzard BlizzardState(CartesianIndex(4, 6), UP) moves to CartesianIndex(3, 6)
+└ @ Main C:\dev\advent_of_code\2022\day24\part1.jl:132
+┌ Debug: blizzard BlizzardState(CartesianIndex(2, 3), LEFT) moves to CartesianIndex(2, 2)
+└ @ Main C:\dev\advent_of_code\2022\day24\part1.jl:132
+┌ Debug: blizzard BlizzardState(CartesianIndex(2, 6), RIGHT) moves to CartesianIndex(2, 7)
+└ @ Main C:\dev\advent_of_code\2022\day24\part1.jl:132
+┌ Debug: blizzard BlizzardState(CartesianIndex(3, 5), LEFT) moves to CartesianIndex(3, 4)
+└ @ Main C:\dev\advent_of_code\2022\day24\part1.jl:132
+┌ Debug: blizzard BlizzardState(CartesianIndex(2, 7), LEFT) moves to CartesianIndex(2, 6)
+└ @ Main C:\dev\advent_of_code\2022\day24\part1.jl:132
+┌ Debug: blizzard BlizzardState(CartesianIndex(3, 5), UP) moves to CartesianIndex(2, 5)
+└ @ Main C:\dev\advent_of_code\2022\day24\part1.jl:132
+┌ Debug: blizzard BlizzardState(CartesianIndex(2, 7), RIGHT) moves to CartesianIndex(2, 2)
+└ @ Main C:\dev\advent_of_code\2022\day24\part1.jl:132
+┌ Debug: blizzard BlizzardState(CartesianIndex(4, 2), LEFT) moves to CartesianIndex(4, 7)
+└ @ Main C:\dev\advent_of_code\2022\day24\part1.jl:132
+┌ Debug: blizzard BlizzardState(CartesianIndex(3, 2), LEFT) moves to CartesianIndex(3, 7)
+└ @ Main C:\dev\advent_of_code\2022\day24\part1.jl:132
+┌ Debug: blizzard BlizzardState(CartesianIndex(4, 6), RIGHT) moves to CartesianIndex(4, 7)
+└ @ Main C:\dev\advent_of_code\2022\day24\part1.jl:132
+┌ Debug: blizzard BlizzardState(CartesianIndex(4, 5), RIGHT) moves to CartesianIndex(4, 6)
+└ @ Main C:\dev\advent_of_code\2022\day24\part1.jl:132
+┌ Debug: blizzard BlizzardState(CartesianIndex(3, 3), UP) moves to CartesianIndex(2, 3)
+└ @ Main C:\dev\advent_of_code\2022\day24\part1.jl:132
+┌ Debug: blizzard BlizzardState(CartesianIndex(5, 5), RIGHT) moves to CartesianIndex(5, 6)
+└ @ Main C:\dev\advent_of_code\2022\day24\part1.jl:132
+┌ Debug: blizzard BlizzardState(CartesianIndex(2, 3), DOWN) moves to CartesianIndex(3, 3)
+└ @ Main C:\dev\advent_of_code\2022\day24\part1.jl:132
+┌ Debug: blizzard BlizzardState(CartesianIndex(3, 6), UP) moves to CartesianIndex(2, 6)
+└ @ Main C:\dev\advent_of_code\2022\day24\part1.jl:132
+┌ Debug: blizzard BlizzardState(CartesianIndex(3, 3), LEFT) moves to CartesianIndex(3, 2)
+└ @ Main C:\dev\advent_of_code\2022\day24\part1.jl:132
+┌ Debug: blizzard BlizzardState(CartesianIndex(3, 4), DOWN) moves to CartesianIndex(4, 4)
+└ @ Main C:\dev\advent_of_code\2022\day24\part1.jl:132
+┌ Debug: Blizzards end: Tuple{Tuple{Int64, Int64}, FacingDir}[((4, 4), RIGHT), ((5, 3), LEFT), ((3, 6), UP), ((2, 2), LEFT), ((2, 7), RIGHT), ((3, 4), LEFT), ((2, 6), LEFT), ((2, 5), UP), ((2, 2), RIGHT), ((4, 7), LEFT), ((3, 7), LEFT), ((4, 7), RIGHT), ((4, 6), RIGHT), ((2, 3), UP), ((5, 6), RIGHT), ((3, 3), DOWN), ((2, 6), UP), ((3, 2), LEFT), ((4, 4), DOWN)]
+└ @ Main C:\dev\advent_of_code\2022\day24\part1.jl:160
+┌ Debug: looking for valid options for OpenState(CartesianIndex(2, 2))
+└ @ Main C:\dev\advent_of_code\2022\day24\part1.jl:172
+┌ Debug: Can't stand still, a blizzard has arrived
+└ @ Main C:\dev\advent_of_code\2022\day24\part1.jl:181
+┌ Debug: Can move UP
+└ @ Main C:\dev\advent_of_code\2022\day24\part1.jl:198
+┌ Debug: Can't move RIGHT, a blizzard is there
+└ @ Main C:\dev\advent_of_code\2022\day24\part1.jl:208
+┌ Debug: Can't move DOWN, a blizzard is there
+└ @ Main C:\dev\advent_of_code\2022\day24\part1.jl:208
+┌ Debug: Can't move LEFT, a wall is there
+└ @ Main C:\dev\advent_of_code\2022\day24\part1.jl:210
+┌ Debug: looking for valid options for OpenState(CartesianIndex(1, 2))
+└ @ Main C:\dev\advent_of_code\2022\day24\part1.jl:172
+┌ Debug: Can stand still
+└ @ Main C:\dev\advent_of_code\2022\day24\part1.jl:177
+┌ Debug: Can't move RIGHT, a wall is there
+└ @ Main C:\dev\advent_of_code\2022\day24\part1.jl:210
+┌ Debug: Can't move DOWN, a blizzard is there
+└ @ Main C:\dev\advent_of_code\2022\day24\part1.jl:208
+┌ Debug: Can't move LEFT, a wall is there
+└ @ Main C:\dev\advent_of_code\2022\day24\part1.jl:210
+┌ Debug: looking for valid options for OpenState(CartesianIndex(2, 4))
+└ @ Main C:\dev\advent_of_code\2022\day24\part1.jl:172
+┌ Debug: Can stand still
+└ @ Main C:\dev\advent_of_code\2022\day24\part1.jl:177
+┌ Debug: Can't move UP, a wall is there
+└ @ Main C:\dev\advent_of_code\2022\day24\part1.jl:210
+┌ Debug: Can't move RIGHT, a blizzard is there
+└ @ Main C:\dev\advent_of_code\2022\day24\part1.jl:208
+┌ Debug: Can't move DOWN, a blizzard is there
+└ @ Main C:\dev\advent_of_code\2022\day24\part1.jl:208
+┌ Debug: Can't move LEFT, a blizzard is there
+└ @ Main C:\dev\advent_of_code\2022\day24\part1.jl:208
+┌ Debug: looking for valid options for OpenState(CartesianIndex(2, 2))
+└ @ Main C:\dev\advent_of_code\2022\day24\part1.jl:172
+┌ Debug: Can't stand still, a blizzard has arrived
+└ @ Main C:\dev\advent_of_code\2022\day24\part1.jl:181
+┌ Debug: Can move UP
+└ @ Main C:\dev\advent_of_code\2022\day24\part1.jl:198
+┌ Debug: Can't move RIGHT, a blizzard is there
+└ @ Main C:\dev\advent_of_code\2022\day24\part1.jl:208
+┌ Debug: Can't move DOWN, a blizzard is there
+└ @ Main C:\dev\advent_of_code\2022\day24\part1.jl:208
+┌ Debug: Can't move LEFT, a wall is there
+└ @ Main C:\dev\advent_of_code\2022\day24\part1.jl:210
+[ Info: 2 paths culled, 2 remain.
+┌ Debug: End of timestep 12: Vector{Tuple{Int64, OpenState}}[[(0, OpenState(CartesianIndex(1, 2)))], [(1, OpenState(CartesianIndex(1, 2))), (1, OpenState(CartesianIndex(2, 2)))], [(1, OpenState(CartesianIndex(2, 2))), (2, OpenState(CartesianIndex(1, 2))), (2, OpenState(CartesianIndex(3, 2)))], [(1, OpenState(CartesianIndex(3, 2))), (2, OpenState(CartesianIndex(1, 2)))], [(2, OpenState(CartesianIndex(1, 2))), (2, OpenState(CartesianIndex(2, 2)))], [(2, OpenState(CartesianIndex(1, 2))), (2, OpenState(CartesianIndex(2, 3)))], [(1, OpenState(CartesianIndex(1, 2))), (2, OpenState(CartesianIndex(2, 4)))], [(1, OpenState(CartesianIndex(1, 2))), (1, OpenState(CartesianIndex(2, 2))), (2, OpenState(CartesianIndex(3, 4)))], [(1, OpenState(CartesianIndex(2, 2))), (2, OpenState(CartesianIndex(1, 2))), (2, OpenState(CartesianIndex(3, 2))), (3, OpenState(CartesianIndex(3, 3)))], [(1, OpenState(CartesianIndex(2, 3))), (2, OpenState(CartesianIndex(1, 2))), (4, OpenState(CartesianIndex(2, 3))), (4, OpenState(CartesianIndex(3, 2)))], [(1, OpenState(CartesianIndex(2, 2))), (2, OpenState(CartesianIndex(1, 2))), (3, OpenState(CartesianIndex(2, 4))), (4, OpenState(CartesianIndex(2, 2)))], [(2, OpenState(CartesianIndex(1, 2))), (3, OpenState(CartesianIndex(2, 4)))]]
+└ @ Main C:\dev\advent_of_code\2022\day24\part1.jl:228
+[ Info: Start of timestep 12: Vector{Tuple{Int64, OpenState}}[[(0, OpenState(CartesianIndex(1, 2)))], [(1, OpenState(CartesianIndex(1, 2))), (1, OpenState(CartesianIndex(2, 2)))], [(1, OpenState(CartesianIndex(2, 2))), (2, OpenState(CartesianIndex(1, 2))), (2, OpenState(CartesianIndex(3, 2)))], [(1, OpenState(CartesianIndex(3, 2))), (2, OpenState(CartesianIndex(1, 2)))], [(2, OpenState(CartesianIndex(1, 2))), (2, OpenState(CartesianIndex(2, 2)))], [(2, OpenState(CartesianIndex(1, 2))), (2, OpenState(CartesianIndex(2, 3)))], [(1, OpenState(CartesianIndex(1, 2))), (2, OpenState(CartesianIndex(2, 4)))], [(1, OpenState(CartesianIndex(1, 2))), (1, OpenState(CartesianIndex(2, 2))), (2, OpenState(CartesianIndex(3, 4)))], [(1, OpenState(CartesianIndex(2, 2))), (2, OpenState(CartesianIndex(1, 2))), (2, OpenState(CartesianIndex(3, 2))), (3, OpenState(CartesianIndex(3, 3)))], [(1, OpenState(CartesianIndex(2, 3))), (2, OpenState(CartesianIndex(1, 2))), (4, OpenState(CartesianIndex(2, 3))), (4, OpenState(CartesianIndex(3, 2)))], [(1, OpenState(CartesianIndex(2, 2))), (2, OpenState(CartesianIndex(1, 2))), (3, OpenState(CartesianIndex(2, 4))), (4, OpenState(CartesianIndex(2, 2)))], [(2, OpenState(CartesianIndex(1, 2))), (3, OpenState(CartesianIndex(2, 4)))]]
+┌ Debug: Blizzards start: Tuple{Tuple{Int64, Int64}, FacingDir}[((4, 4), RIGHT), ((5, 3), LEFT), ((3, 6), UP), ((2, 2), LEFT), ((2, 7), RIGHT), ((3, 4), LEFT), ((2, 6), LEFT), ((2, 5), UP), ((2, 2), RIGHT), ((4, 7), LEFT), ((3, 7), LEFT), ((4, 7), RIGHT), ((4, 6), RIGHT), ((2, 3), UP), ((5, 6), RIGHT), ((3, 3), DOWN), ((2, 6), UP), ((3, 2), LEFT), ((4, 4), DOWN)]
+└ @ Main C:\dev\advent_of_code\2022\day24\part1.jl:126
+┌ Debug: blizzard BlizzardState(CartesianIndex(4, 4), RIGHT) moves to CartesianIndex(4, 5)
+└ @ Main C:\dev\advent_of_code\2022\day24\part1.jl:132
+┌ Debug: blizzard BlizzardState(CartesianIndex(5, 3), LEFT) moves to CartesianIndex(5, 2)
+└ @ Main C:\dev\advent_of_code\2022\day24\part1.jl:132
+┌ Debug: blizzard BlizzardState(CartesianIndex(3, 6), UP) moves to CartesianIndex(2, 6)
+└ @ Main C:\dev\advent_of_code\2022\day24\part1.jl:132
+┌ Debug: blizzard BlizzardState(CartesianIndex(2, 2), LEFT) moves to CartesianIndex(2, 7)
+└ @ Main C:\dev\advent_of_code\2022\day24\part1.jl:132
+┌ Debug: blizzard BlizzardState(CartesianIndex(2, 7), RIGHT) moves to CartesianIndex(2, 2)
+└ @ Main C:\dev\advent_of_code\2022\day24\part1.jl:132
+┌ Debug: blizzard BlizzardState(CartesianIndex(3, 4), LEFT) moves to CartesianIndex(3, 3)
+└ @ Main C:\dev\advent_of_code\2022\day24\part1.jl:132
+┌ Debug: blizzard BlizzardState(CartesianIndex(2, 6), LEFT) moves to CartesianIndex(2, 5)
+└ @ Main C:\dev\advent_of_code\2022\day24\part1.jl:132
+┌ Debug: blizzard BlizzardState(CartesianIndex(2, 5), UP) moves to CartesianIndex(5, 5)
+└ @ Main C:\dev\advent_of_code\2022\day24\part1.jl:132
+┌ Debug: blizzard BlizzardState(CartesianIndex(2, 2), RIGHT) moves to CartesianIndex(2, 3)
+└ @ Main C:\dev\advent_of_code\2022\day24\part1.jl:132
+┌ Debug: blizzard BlizzardState(CartesianIndex(4, 7), LEFT) moves to CartesianIndex(4, 6)
+└ @ Main C:\dev\advent_of_code\2022\day24\part1.jl:132
+┌ Debug: blizzard BlizzardState(CartesianIndex(3, 7), LEFT) moves to CartesianIndex(3, 6)
+└ @ Main C:\dev\advent_of_code\2022\day24\part1.jl:132
+┌ Debug: blizzard BlizzardState(CartesianIndex(4, 7), RIGHT) moves to CartesianIndex(4, 2)
+└ @ Main C:\dev\advent_of_code\2022\day24\part1.jl:132
+┌ Debug: blizzard BlizzardState(CartesianIndex(4, 6), RIGHT) moves to CartesianIndex(4, 7)
+└ @ Main C:\dev\advent_of_code\2022\day24\part1.jl:132
+┌ Debug: blizzard BlizzardState(CartesianIndex(2, 3), UP) moves to CartesianIndex(5, 3)
+└ @ Main C:\dev\advent_of_code\2022\day24\part1.jl:132
+┌ Debug: blizzard BlizzardState(CartesianIndex(5, 6), RIGHT) moves to CartesianIndex(5, 7)
+└ @ Main C:\dev\advent_of_code\2022\day24\part1.jl:132
+┌ Debug: blizzard BlizzardState(CartesianIndex(3, 3), DOWN) moves to CartesianIndex(4, 3)
+└ @ Main C:\dev\advent_of_code\2022\day24\part1.jl:132
+┌ Debug: blizzard BlizzardState(CartesianIndex(2, 6), UP) moves to CartesianIndex(5, 6)
+└ @ Main C:\dev\advent_of_code\2022\day24\part1.jl:132
+┌ Debug: blizzard BlizzardState(CartesianIndex(3, 2), LEFT) moves to CartesianIndex(3, 7)
+└ @ Main C:\dev\advent_of_code\2022\day24\part1.jl:132
+┌ Debug: blizzard BlizzardState(CartesianIndex(4, 4), DOWN) moves to CartesianIndex(5, 4)
+└ @ Main C:\dev\advent_of_code\2022\day24\part1.jl:132
+┌ Debug: Blizzards end: Tuple{Tuple{Int64, Int64}, FacingDir}[((4, 5), RIGHT), ((5, 2), LEFT), ((2, 6), UP), ((2, 7), LEFT), ((2, 2), RIGHT), ((3, 3), LEFT), ((2, 5), LEFT), ((5, 5), UP), ((2, 3), RIGHT), ((4, 6), LEFT), ((3, 6), LEFT), ((4, 2), RIGHT), ((4, 7), RIGHT), ((5, 3), UP), ((5, 7), RIGHT), ((4, 3), DOWN), ((5, 6), UP), ((3, 7), LEFT), ((5, 4), DOWN)]
+└ @ Main C:\dev\advent_of_code\2022\day24\part1.jl:160
+┌ Debug: looking for valid options for OpenState(CartesianIndex(1, 2))
+└ @ Main C:\dev\advent_of_code\2022\day24\part1.jl:172
+┌ Debug: Can stand still
+└ @ Main C:\dev\advent_of_code\2022\day24\part1.jl:177
+┌ Debug: Can't move RIGHT, a wall is there
+└ @ Main C:\dev\advent_of_code\2022\day24\part1.jl:210
+┌ Debug: Can't move DOWN, a blizzard is there
+└ @ Main C:\dev\advent_of_code\2022\day24\part1.jl:208
+┌ Debug: Can't move LEFT, a wall is there
+└ @ Main C:\dev\advent_of_code\2022\day24\part1.jl:210
+┌ Debug: looking for valid options for OpenState(CartesianIndex(2, 4))
+└ @ Main C:\dev\advent_of_code\2022\day24\part1.jl:172
+┌ Debug: Can stand still
+└ @ Main C:\dev\advent_of_code\2022\day24\part1.jl:177
+┌ Debug: Can't move UP, a wall is there
+└ @ Main C:\dev\advent_of_code\2022\day24\part1.jl:210
+┌ Debug: Can't move RIGHT, a blizzard is there
+└ @ Main C:\dev\advent_of_code\2022\day24\part1.jl:208
+┌ Debug: Can move DOWN
+└ @ Main C:\dev\advent_of_code\2022\day24\part1.jl:198
+┌ Debug: Can't move LEFT, a blizzard is there
+└ @ Main C:\dev\advent_of_code\2022\day24\part1.jl:208
+[ Info: 0 paths culled, 3 remain.
+┌ Debug: End of timestep 13: Vector{Tuple{Int64, OpenState}}[[(0, OpenState(CartesianIndex(1, 2)))], [(1, OpenState(CartesianIndex(1, 2))), (1, OpenState(CartesianIndex(2, 2)))], [(1, OpenState(CartesianIndex(2, 2))), (2, OpenState(CartesianIndex(1, 2))), (2, OpenState(CartesianIndex(3, 2)))], [(1, OpenState(CartesianIndex(3, 2))), (2, OpenState(CartesianIndex(1, 2)))], [(2, OpenState(CartesianIndex(1, 2))), (2, OpenState(CartesianIndex(2, 2)))], [(2, OpenState(CartesianIndex(1, 2))), (2, OpenState(CartesianIndex(2, 3)))], [(1, OpenState(CartesianIndex(1, 2))), (2, OpenState(CartesianIndex(2, 4)))], [(1, OpenState(CartesianIndex(1, 2))), (1, OpenState(CartesianIndex(2, 2))), (2, OpenState(CartesianIndex(3, 4)))], [(1, OpenState(CartesianIndex(2, 2))), (2, OpenState(CartesianIndex(1, 2))), (2, OpenState(CartesianIndex(3, 2))), (3, OpenState(CartesianIndex(3, 3)))], [(1, OpenState(CartesianIndex(2, 3))), (2, OpenState(CartesianIndex(1, 2))), (4, OpenState(CartesianIndex(2, 3))), (4, OpenState(CartesianIndex(3, 2)))], [(1, OpenState(CartesianIndex(2, 2))), (2, OpenState(CartesianIndex(1, 2))), (3, OpenState(CartesianIndex(2, 4))), (4, OpenState(CartesianIndex(2, 2)))], [(2, OpenState(CartesianIndex(1, 2))), (3, OpenState(CartesianIndex(2, 4)))], [(1, OpenState(CartesianIndex(1, 2))), (2, OpenState(CartesianIndex(2, 4))), (2, OpenState(CartesianIndex(3, 4)))]]
+└ @ Main C:\dev\advent_of_code\2022\day24\part1.jl:228
+[ Info: Start of timestep 13: Vector{Tuple{Int64, OpenState}}[[(0, OpenState(CartesianIndex(1, 2)))], [(1, OpenState(CartesianIndex(1, 2))), (1, OpenState(CartesianIndex(2, 2)))], [(1, OpenState(CartesianIndex(2, 2))), (2, OpenState(CartesianIndex(1, 2))), (2, OpenState(CartesianIndex(3, 2)))], [(1, OpenState(CartesianIndex(3, 2))), (2, OpenState(CartesianIndex(1, 2)))], [(2, OpenState(CartesianIndex(1, 2))), (2, OpenState(CartesianIndex(2, 2)))], [(2, OpenState(CartesianIndex(1, 2))), (2, OpenState(CartesianIndex(2, 3)))], [(1, OpenState(CartesianIndex(1, 2))), (2, OpenState(CartesianIndex(2, 4)))], [(1, OpenState(CartesianIndex(1, 2))), (1, OpenState(CartesianIndex(2, 2))), (2, OpenState(CartesianIndex(3, 4)))], [(1, OpenState(CartesianIndex(2, 2))), (2, OpenState(CartesianIndex(1, 2))), (2, OpenState(CartesianIndex(3, 2))), (3, OpenState(CartesianIndex(3, 3)))], [(1, OpenState(CartesianIndex(2, 3))), (2, OpenState(CartesianIndex(1, 2))), (4, OpenState(CartesianIndex(2, 3))), (4, OpenState(CartesianIndex(3, 2)))], [(1, OpenState(CartesianIndex(2, 2))), (2, OpenState(CartesianIndex(1, 2))), (3, OpenState(CartesianIndex(2, 4))), (4, OpenState(CartesianIndex(2, 2)))], [(2, OpenState(CartesianIndex(1, 2))), (3, OpenState(CartesianIndex(2, 4)))], [(1, OpenState(CartesianIndex(1, 2))), (2, OpenState(CartesianIndex(2, 4))), (2, OpenState(CartesianIndex(3, 4)))]]
+┌ Debug: Blizzards start: Tuple{Tuple{Int64, Int64}, FacingDir}[((4, 5), RIGHT), ((5, 2), LEFT), ((2, 6), UP), ((2, 7), LEFT), ((2, 2), RIGHT), ((3, 3), LEFT), ((2, 5), LEFT), ((5, 5), UP), ((2, 3), RIGHT), ((4, 6), LEFT), ((3, 6), LEFT), ((4, 2), RIGHT), ((4, 7), RIGHT), ((5, 3), UP), ((5, 7), RIGHT), ((4, 3), DOWN), ((5, 6), UP), ((3, 7), LEFT), ((5, 4), DOWN)]
+└ @ Main C:\dev\advent_of_code\2022\day24\part1.jl:126
+┌ Debug: blizzard BlizzardState(CartesianIndex(4, 5), RIGHT) moves to CartesianIndex(4, 6)
+└ @ Main C:\dev\advent_of_code\2022\day24\part1.jl:132
+┌ Debug: blizzard BlizzardState(CartesianIndex(5, 2), LEFT) moves to CartesianIndex(5, 7)
+└ @ Main C:\dev\advent_of_code\2022\day24\part1.jl:132
+┌ Debug: blizzard BlizzardState(CartesianIndex(2, 6), UP) moves to CartesianIndex(5, 6)
+└ @ Main C:\dev\advent_of_code\2022\day24\part1.jl:132
+┌ Debug: blizzard BlizzardState(CartesianIndex(2, 7), LEFT) moves to CartesianIndex(2, 6)
+└ @ Main C:\dev\advent_of_code\2022\day24\part1.jl:132
+┌ Debug: blizzard BlizzardState(CartesianIndex(2, 2), RIGHT) moves to CartesianIndex(2, 3)
+└ @ Main C:\dev\advent_of_code\2022\day24\part1.jl:132
+┌ Debug: blizzard BlizzardState(CartesianIndex(3, 3), LEFT) moves to CartesianIndex(3, 2)
+└ @ Main C:\dev\advent_of_code\2022\day24\part1.jl:132
+┌ Debug: blizzard BlizzardState(CartesianIndex(2, 5), LEFT) moves to CartesianIndex(2, 4)
+└ @ Main C:\dev\advent_of_code\2022\day24\part1.jl:132
+┌ Debug: blizzard BlizzardState(CartesianIndex(5, 5), UP) moves to CartesianIndex(4, 5)
+└ @ Main C:\dev\advent_of_code\2022\day24\part1.jl:132
+┌ Debug: blizzard BlizzardState(CartesianIndex(2, 3), RIGHT) moves to CartesianIndex(2, 4)
+└ @ Main C:\dev\advent_of_code\2022\day24\part1.jl:132
+┌ Debug: blizzard BlizzardState(CartesianIndex(4, 6), LEFT) moves to CartesianIndex(4, 5)
+└ @ Main C:\dev\advent_of_code\2022\day24\part1.jl:132
+┌ Debug: blizzard BlizzardState(CartesianIndex(3, 6), LEFT) moves to CartesianIndex(3, 5)
+└ @ Main C:\dev\advent_of_code\2022\day24\part1.jl:132
+┌ Debug: blizzard BlizzardState(CartesianIndex(4, 2), RIGHT) moves to CartesianIndex(4, 3)
+└ @ Main C:\dev\advent_of_code\2022\day24\part1.jl:132
+┌ Debug: blizzard BlizzardState(CartesianIndex(4, 7), RIGHT) moves to CartesianIndex(4, 2)
+└ @ Main C:\dev\advent_of_code\2022\day24\part1.jl:132
+┌ Debug: blizzard BlizzardState(CartesianIndex(5, 3), UP) moves to CartesianIndex(4, 3)
+└ @ Main C:\dev\advent_of_code\2022\day24\part1.jl:132
+┌ Debug: blizzard BlizzardState(CartesianIndex(5, 7), RIGHT) moves to CartesianIndex(5, 2)
+└ @ Main C:\dev\advent_of_code\2022\day24\part1.jl:132
+┌ Debug: blizzard BlizzardState(CartesianIndex(4, 3), DOWN) moves to CartesianIndex(5, 3)
+└ @ Main C:\dev\advent_of_code\2022\day24\part1.jl:132
+┌ Debug: blizzard BlizzardState(CartesianIndex(5, 6), UP) moves to CartesianIndex(4, 6)
+└ @ Main C:\dev\advent_of_code\2022\day24\part1.jl:132
+┌ Debug: blizzard BlizzardState(CartesianIndex(3, 7), LEFT) moves to CartesianIndex(3, 6)
+└ @ Main C:\dev\advent_of_code\2022\day24\part1.jl:132
+┌ Debug: blizzard BlizzardState(CartesianIndex(5, 4), DOWN) moves to CartesianIndex(2, 4)
+└ @ Main C:\dev\advent_of_code\2022\day24\part1.jl:132
+┌ Debug: Blizzards end: Tuple{Tuple{Int64, Int64}, FacingDir}[((4, 6), RIGHT), ((5, 7), LEFT), ((5, 6), UP), ((2, 6), LEFT), ((2, 3), RIGHT), ((3, 2), LEFT), ((2, 4), LEFT), ((4, 5), UP), ((2, 4), RIGHT), ((4, 5), LEFT), ((3, 5), LEFT), ((4, 3), RIGHT), ((4, 2), RIGHT), ((4, 3), UP), ((5, 2), RIGHT), ((5, 3), DOWN), ((4, 6), UP), ((3, 6), LEFT), ((2, 4), DOWN)]
+└ @ Main C:\dev\advent_of_code\2022\day24\part1.jl:160
+┌ Debug: looking for valid options for OpenState(CartesianIndex(1, 2))
+└ @ Main C:\dev\advent_of_code\2022\day24\part1.jl:172
+┌ Debug: Can stand still
+└ @ Main C:\dev\advent_of_code\2022\day24\part1.jl:177
+┌ Debug: Can't move RIGHT, a wall is there
+└ @ Main C:\dev\advent_of_code\2022\day24\part1.jl:210
+┌ Debug: Can move DOWN
+└ @ Main C:\dev\advent_of_code\2022\day24\part1.jl:198
+┌ Debug: Can't move LEFT, a wall is there
+└ @ Main C:\dev\advent_of_code\2022\day24\part1.jl:210
+┌ Debug: looking for valid options for OpenState(CartesianIndex(2, 4))
+└ @ Main C:\dev\advent_of_code\2022\day24\part1.jl:172
+┌ Debug: Can't stand still, a blizzard has arrived
+└ @ Main C:\dev\advent_of_code\2022\day24\part1.jl:181
+┌ Debug: Can't move UP, a wall is there
+└ @ Main C:\dev\advent_of_code\2022\day24\part1.jl:210
+┌ Debug: Can move RIGHT
+└ @ Main C:\dev\advent_of_code\2022\day24\part1.jl:198
+┌ Debug: Can move DOWN
+└ @ Main C:\dev\advent_of_code\2022\day24\part1.jl:198
+┌ Debug: Can't move LEFT, a blizzard is there
+└ @ Main C:\dev\advent_of_code\2022\day24\part1.jl:208
+┌ Debug: looking for valid options for OpenState(CartesianIndex(3, 4))
+└ @ Main C:\dev\advent_of_code\2022\day24\part1.jl:172
+┌ Debug: Can stand still
+└ @ Main C:\dev\advent_of_code\2022\day24\part1.jl:177
+┌ Debug: Can't move UP, a blizzard is there
+└ @ Main C:\dev\advent_of_code\2022\day24\part1.jl:208
+┌ Debug: Can't move RIGHT, a blizzard is there
+└ @ Main C:\dev\advent_of_code\2022\day24\part1.jl:208
+┌ Debug: Can move DOWN
+└ @ Main C:\dev\advent_of_code\2022\day24\part1.jl:198
+┌ Debug: Can move LEFT
+└ @ Main C:\dev\advent_of_code\2022\day24\part1.jl:198
+[ Info: 1 paths culled, 6 remain.
+┌ Debug: End of timestep 14: Vector{Tuple{Int64, OpenState}}[[(0, OpenState(CartesianIndex(1, 2)))], [(1, OpenState(CartesianIndex(1, 2))), (1, OpenState(CartesianIndex(2, 2)))], [(1, OpenState(CartesianIndex(2, 2))), (2, OpenState(CartesianIndex(1, 2))), (2, OpenState(CartesianIndex(3, 2)))], [(1, OpenState(CartesianIndex(3, 2))), (2, OpenState(CartesianIndex(1, 2)))], [(2, OpenState(CartesianIndex(1, 2))), (2, OpenState(CartesianIndex(2, 2)))], [(2, OpenState(CartesianIndex(1, 2))), (2, OpenState(CartesianIndex(2, 3)))], [(1, OpenState(CartesianIndex(1, 2))), (2, OpenState(CartesianIndex(2, 4)))], [(1, OpenState(CartesianIndex(1, 2))), (1, OpenState(CartesianIndex(2, 2))), (2, OpenState(CartesianIndex(3, 4)))], [(1, OpenState(CartesianIndex(2, 2))), (2, OpenState(CartesianIndex(1, 2))), (2, OpenState(CartesianIndex(3, 2))), (3, OpenState(CartesianIndex(3, 3)))], [(1, OpenState(CartesianIndex(2, 3))), (2, OpenState(CartesianIndex(1, 2))), (4, OpenState(CartesianIndex(2, 3))), (4, OpenState(CartesianIndex(3, 2)))], [(1, OpenState(CartesianIndex(2, 2))), (2, OpenState(CartesianIndex(1, 2))), (3, OpenState(CartesianIndex(2, 4))), (4, OpenState(CartesianIndex(2, 2)))], [(2, OpenState(CartesianIndex(1, 2))), (3, OpenState(CartesianIndex(2, 4)))], [(1, OpenState(CartesianIndex(1, 2))), (2, OpenState(CartesianIndex(2, 4))), (2, OpenState(CartesianIndex(3, 4)))], [(1, OpenState(CartesianIndex(1, 2))), (1, OpenState(CartesianIndex(2, 2))), (2, OpenState(CartesianIndex(2, 5))), (3, OpenState(CartesianIndex(3, 4))), (3, OpenState(CartesianIndex(4, 4))), (3, OpenState(CartesianIndex(3, 3)))]]
+└ @ Main C:\dev\advent_of_code\2022\day24\part1.jl:228
+[ Info: Start of timestep 14: Vector{Tuple{Int64, OpenState}}[[(0, OpenState(CartesianIndex(1, 2)))], [(1, OpenState(CartesianIndex(1, 2))), (1, OpenState(CartesianIndex(2, 2)))], [(1, OpenState(CartesianIndex(2, 2))), (2, OpenState(CartesianIndex(1, 2))), (2, OpenState(CartesianIndex(3, 2)))], [(1, OpenState(CartesianIndex(3, 2))), (2, OpenState(CartesianIndex(1, 2)))], [(2, OpenState(CartesianIndex(1, 2))), (2, OpenState(CartesianIndex(2, 2)))], [(2, OpenState(CartesianIndex(1, 2))), (2, OpenState(CartesianIndex(2, 3)))], [(1, OpenState(CartesianIndex(1, 2))), (2, OpenState(CartesianIndex(2, 4)))], [(1, OpenState(CartesianIndex(1, 2))), (1, OpenState(CartesianIndex(2, 2))), (2, OpenState(CartesianIndex(3, 4)))], [(1, OpenState(CartesianIndex(2, 2))), (2, OpenState(CartesianIndex(1, 2))), (2, OpenState(CartesianIndex(3, 2))), (3, OpenState(CartesianIndex(3, 3)))], [(1, OpenState(CartesianIndex(2, 3))), (2, OpenState(CartesianIndex(1, 2))), (4, OpenState(CartesianIndex(2, 3))), (4, OpenState(CartesianIndex(3, 2)))], [(1, OpenState(CartesianIndex(2, 2))), (2, OpenState(CartesianIndex(1, 2))), (3, OpenState(CartesianIndex(2, 4))), (4, OpenState(CartesianIndex(2, 2)))], [(2, OpenState(CartesianIndex(1, 2))), (3, OpenState(CartesianIndex(2, 4)))], [(1, OpenState(CartesianIndex(1, 2))), (2, OpenState(CartesianIndex(2, 4))), (2, OpenState(CartesianIndex(3, 4)))], [(1, OpenState(CartesianIndex(1, 2))), (1, OpenState(CartesianIndex(2, 2))), (2, OpenState(CartesianIndex(2, 5))), (3, OpenState(CartesianIndex(3, 4))), (3, OpenState(CartesianIndex(4, 4))), (3, OpenState(CartesianIndex(3, 3)))]]
+┌ Debug: Blizzards start: Tuple{Tuple{Int64, Int64}, FacingDir}[((4, 6), RIGHT), ((5, 7), LEFT), ((5, 6), UP), ((2, 6), LEFT), ((2, 3), RIGHT), ((3, 2), LEFT), ((2, 4), LEFT), ((4, 5), UP), ((2, 4), RIGHT), ((4, 5), LEFT), ((3, 5), LEFT), ((4, 3), RIGHT), ((4, 2), RIGHT), ((4, 3), UP), ((5, 2), RIGHT), ((5, 3), DOWN), ((4, 6), UP), ((3, 6), LEFT), ((2, 4), DOWN)]
+└ @ Main C:\dev\advent_of_code\2022\day24\part1.jl:126
+┌ Debug: blizzard BlizzardState(CartesianIndex(4, 6), RIGHT) moves to CartesianIndex(4, 7)
+└ @ Main C:\dev\advent_of_code\2022\day24\part1.jl:132
+┌ Debug: blizzard BlizzardState(CartesianIndex(5, 7), LEFT) moves to CartesianIndex(5, 6)
+└ @ Main C:\dev\advent_of_code\2022\day24\part1.jl:132
+┌ Debug: blizzard BlizzardState(CartesianIndex(5, 6), UP) moves to CartesianIndex(4, 6)
+└ @ Main C:\dev\advent_of_code\2022\day24\part1.jl:132
+┌ Debug: blizzard BlizzardState(CartesianIndex(2, 6), LEFT) moves to CartesianIndex(2, 5)
+└ @ Main C:\dev\advent_of_code\2022\day24\part1.jl:132
+┌ Debug: blizzard BlizzardState(CartesianIndex(2, 3), RIGHT) moves to CartesianIndex(2, 4)
+└ @ Main C:\dev\advent_of_code\2022\day24\part1.jl:132
+┌ Debug: blizzard BlizzardState(CartesianIndex(3, 2), LEFT) moves to CartesianIndex(3, 7)
+└ @ Main C:\dev\advent_of_code\2022\day24\part1.jl:132
+┌ Debug: blizzard BlizzardState(CartesianIndex(2, 4), LEFT) moves to CartesianIndex(2, 3)
+└ @ Main C:\dev\advent_of_code\2022\day24\part1.jl:132
+┌ Debug: blizzard BlizzardState(CartesianIndex(4, 5), UP) moves to CartesianIndex(3, 5)
+└ @ Main C:\dev\advent_of_code\2022\day24\part1.jl:132
+┌ Debug: blizzard BlizzardState(CartesianIndex(2, 4), RIGHT) moves to CartesianIndex(2, 5)
+└ @ Main C:\dev\advent_of_code\2022\day24\part1.jl:132
+┌ Debug: blizzard BlizzardState(CartesianIndex(4, 5), LEFT) moves to CartesianIndex(4, 4)
+└ @ Main C:\dev\advent_of_code\2022\day24\part1.jl:132
+┌ Debug: blizzard BlizzardState(CartesianIndex(3, 5), LEFT) moves to CartesianIndex(3, 4)
+└ @ Main C:\dev\advent_of_code\2022\day24\part1.jl:132
+┌ Debug: blizzard BlizzardState(CartesianIndex(4, 3), RIGHT) moves to CartesianIndex(4, 4)
+└ @ Main C:\dev\advent_of_code\2022\day24\part1.jl:132
+┌ Debug: blizzard BlizzardState(CartesianIndex(4, 2), RIGHT) moves to CartesianIndex(4, 3)
+└ @ Main C:\dev\advent_of_code\2022\day24\part1.jl:132
+┌ Debug: blizzard BlizzardState(CartesianIndex(4, 3), UP) moves to CartesianIndex(3, 3)
+└ @ Main C:\dev\advent_of_code\2022\day24\part1.jl:132
+┌ Debug: blizzard BlizzardState(CartesianIndex(5, 2), RIGHT) moves to CartesianIndex(5, 3)
+└ @ Main C:\dev\advent_of_code\2022\day24\part1.jl:132
+┌ Debug: blizzard BlizzardState(CartesianIndex(5, 3), DOWN) moves to CartesianIndex(2, 3)
+└ @ Main C:\dev\advent_of_code\2022\day24\part1.jl:132
+┌ Debug: blizzard BlizzardState(CartesianIndex(4, 6), UP) moves to CartesianIndex(3, 6)
+└ @ Main C:\dev\advent_of_code\2022\day24\part1.jl:132
+┌ Debug: blizzard BlizzardState(CartesianIndex(3, 6), LEFT) moves to CartesianIndex(3, 5)
+└ @ Main C:\dev\advent_of_code\2022\day24\part1.jl:132
+┌ Debug: blizzard BlizzardState(CartesianIndex(2, 4), DOWN) moves to CartesianIndex(3, 4)
+└ @ Main C:\dev\advent_of_code\2022\day24\part1.jl:132
+┌ Debug: Blizzards end: Tuple{Tuple{Int64, Int64}, FacingDir}[((4, 7), RIGHT), ((5, 6), LEFT), ((4, 6), UP), ((2, 5), LEFT), ((2, 4), RIGHT), ((3, 7), LEFT), ((2, 3), LEFT), ((3, 5), UP), ((2, 5), RIGHT), ((4, 4), LEFT), ((3, 4), LEFT), ((4, 4), RIGHT), ((4, 3), RIGHT), ((3, 3), UP), ((5, 3), RIGHT), ((2, 3), DOWN), ((3, 6), UP), ((3, 5), LEFT), ((3, 4), DOWN)]
+└ @ Main C:\dev\advent_of_code\2022\day24\part1.jl:160
+┌ Debug: looking for valid options for OpenState(CartesianIndex(1, 2))
+└ @ Main C:\dev\advent_of_code\2022\day24\part1.jl:172
+┌ Debug: Can stand still
+└ @ Main C:\dev\advent_of_code\2022\day24\part1.jl:177
+┌ Debug: Can't move RIGHT, a wall is there
+└ @ Main C:\dev\advent_of_code\2022\day24\part1.jl:210
+┌ Debug: Can move DOWN
+└ @ Main C:\dev\advent_of_code\2022\day24\part1.jl:198
+┌ Debug: Can't move LEFT, a wall is there
+└ @ Main C:\dev\advent_of_code\2022\day24\part1.jl:210
+┌ Debug: looking for valid options for OpenState(CartesianIndex(2, 2))
+└ @ Main C:\dev\advent_of_code\2022\day24\part1.jl:172
+┌ Debug: Can stand still
+└ @ Main C:\dev\advent_of_code\2022\day24\part1.jl:177
+┌ Debug: Can move UP
+└ @ Main C:\dev\advent_of_code\2022\day24\part1.jl:198
+┌ Debug: Can't move RIGHT, a blizzard is there
+└ @ Main C:\dev\advent_of_code\2022\day24\part1.jl:208
+┌ Debug: Can move DOWN
+└ @ Main C:\dev\advent_of_code\2022\day24\part1.jl:198
+┌ Debug: Can't move LEFT, a wall is there
+└ @ Main C:\dev\advent_of_code\2022\day24\part1.jl:210
+┌ Debug: looking for valid options for OpenState(CartesianIndex(2, 5))
+└ @ Main C:\dev\advent_of_code\2022\day24\part1.jl:172
+┌ Debug: Can't stand still, a blizzard has arrived
+└ @ Main C:\dev\advent_of_code\2022\day24\part1.jl:181
+┌ Debug: Can't move UP, a wall is there
+└ @ Main C:\dev\advent_of_code\2022\day24\part1.jl:210
+┌ Debug: Can move RIGHT
+└ @ Main C:\dev\advent_of_code\2022\day24\part1.jl:198
+┌ Debug: Can't move DOWN, a blizzard is there
+└ @ Main C:\dev\advent_of_code\2022\day24\part1.jl:208
+┌ Debug: Can't move LEFT, a blizzard is there
+└ @ Main C:\dev\advent_of_code\2022\day24\part1.jl:208
+┌ Debug: looking for valid options for OpenState(CartesianIndex(3, 4))
+└ @ Main C:\dev\advent_of_code\2022\day24\part1.jl:172
+┌ Debug: Can't stand still, a blizzard has arrived
+└ @ Main C:\dev\advent_of_code\2022\day24\part1.jl:181
+┌ Debug: Can't move UP, a blizzard is there
+└ @ Main C:\dev\advent_of_code\2022\day24\part1.jl:208
+┌ Debug: Can't move RIGHT, a blizzard is there
+└ @ Main C:\dev\advent_of_code\2022\day24\part1.jl:208
+┌ Debug: Can't move DOWN, a blizzard is there
+└ @ Main C:\dev\advent_of_code\2022\day24\part1.jl:208
+┌ Debug: Can't move LEFT, a blizzard is there
+└ @ Main C:\dev\advent_of_code\2022\day24\part1.jl:208
+┌ Debug: looking for valid options for OpenState(CartesianIndex(4, 4))
+└ @ Main C:\dev\advent_of_code\2022\day24\part1.jl:172
+┌ Debug: Can't stand still, a blizzard has arrived
+└ @ Main C:\dev\advent_of_code\2022\day24\part1.jl:181
+┌ Debug: Can't move UP, a blizzard is there
+└ @ Main C:\dev\advent_of_code\2022\day24\part1.jl:208
+┌ Debug: Can move RIGHT
+└ @ Main C:\dev\advent_of_code\2022\day24\part1.jl:198
+┌ Debug: Can move DOWN
+└ @ Main C:\dev\advent_of_code\2022\day24\part1.jl:198
+┌ Debug: Can't move LEFT, a blizzard is there
+└ @ Main C:\dev\advent_of_code\2022\day24\part1.jl:208
+┌ Debug: looking for valid options for OpenState(CartesianIndex(3, 3))
+└ @ Main C:\dev\advent_of_code\2022\day24\part1.jl:172
+┌ Debug: Can't stand still, a blizzard has arrived
+└ @ Main C:\dev\advent_of_code\2022\day24\part1.jl:181
+┌ Debug: Can't move UP, a blizzard is there
+└ @ Main C:\dev\advent_of_code\2022\day24\part1.jl:208
+┌ Debug: Can't move RIGHT, a blizzard is there
+└ @ Main C:\dev\advent_of_code\2022\day24\part1.jl:208
+┌ Debug: Can't move DOWN, a blizzard is there
+└ @ Main C:\dev\advent_of_code\2022\day24\part1.jl:208
+┌ Debug: Can move LEFT
+└ @ Main C:\dev\advent_of_code\2022\day24\part1.jl:198
+[ Info: 3 paths culled, 6 remain.
+┌ Debug: End of timestep 15: Vector{Tuple{Int64, OpenState}}[[(0, OpenState(CartesianIndex(1, 2)))], [(1, OpenState(CartesianIndex(1, 2))), (1, OpenState(CartesianIndex(2, 2)))], [(1, OpenState(CartesianIndex(2, 2))), (2, OpenState(CartesianIndex(1, 2))), (2, OpenState(CartesianIndex(3, 2)))], [(1, OpenState(CartesianIndex(3, 2))), (2, OpenState(CartesianIndex(1, 2)))], [(2, OpenState(CartesianIndex(1, 2))), (2, OpenState(CartesianIndex(2, 2)))], [(2, OpenState(CartesianIndex(1, 2))), (2, OpenState(CartesianIndex(2, 3)))], [(1, OpenState(CartesianIndex(1, 2))), (2, OpenState(CartesianIndex(2, 4)))], [(1, OpenState(CartesianIndex(1, 2))), (1, OpenState(CartesianIndex(2, 2))), (2, OpenState(CartesianIndex(3, 4)))], [(1, OpenState(CartesianIndex(2, 2))), (2, OpenState(CartesianIndex(1, 2))), (2, OpenState(CartesianIndex(3, 2))), (3, OpenState(CartesianIndex(3, 3)))], [(1, OpenState(CartesianIndex(2, 3))), (2, OpenState(CartesianIndex(1, 2))), (4, OpenState(CartesianIndex(2, 3))), (4, OpenState(CartesianIndex(3, 2)))], [(1, OpenState(CartesianIndex(2, 2))), (2, OpenState(CartesianIndex(1, 2))), (3, OpenState(CartesianIndex(2, 4))), (4, OpenState(CartesianIndex(2, 2)))], [(2, OpenState(CartesianIndex(1, 2))), (3, OpenState(CartesianIndex(2, 4)))], [(1, OpenState(CartesianIndex(1, 2))), (2, OpenState(CartesianIndex(2, 4))), (2, OpenState(CartesianIndex(3, 4)))], [(1, OpenState(CartesianIndex(1, 2))), (1, OpenState(CartesianIndex(2, 2))), (2, OpenState(CartesianIndex(2, 5))), (3, OpenState(CartesianIndex(3, 4))), (3, OpenState(CartesianIndex(4, 4))), (3, OpenState(CartesianIndex(3, 3)))], [(1, OpenState(CartesianIndex(2, 2))), (2, OpenState(CartesianIndex(1, 2))), (3, OpenState(CartesianIndex(2, 6))), (5, OpenState(CartesianIndex(4, 5))), (5, OpenState(CartesianIndex(5, 4))), (6, OpenState(CartesianIndex(3, 2)))]]
+└ @ Main C:\dev\advent_of_code\2022\day24\part1.jl:228
+[ Info: Start of timestep 15: Vector{Tuple{Int64, OpenState}}[[(0, OpenState(CartesianIndex(1, 2)))], [(1, OpenState(CartesianIndex(1, 2))), (1, OpenState(CartesianIndex(2, 2)))], [(1, OpenState(CartesianIndex(2, 2))), (2, OpenState(CartesianIndex(1, 2))), (2, OpenState(CartesianIndex(3, 2)))], [(1, OpenState(CartesianIndex(3, 2))), (2, OpenState(CartesianIndex(1, 2)))], [(2, OpenState(CartesianIndex(1, 2))), (2, OpenState(CartesianIndex(2, 2)))], [(2, OpenState(CartesianIndex(1, 2))), (2, OpenState(CartesianIndex(2, 3)))], [(1, OpenState(CartesianIndex(1, 2))), (2, OpenState(CartesianIndex(2, 4)))], [(1, OpenState(CartesianIndex(1, 2))), (1, OpenState(CartesianIndex(2, 2))), (2, OpenState(CartesianIndex(3, 4)))], [(1, OpenState(CartesianIndex(2, 2))), (2, OpenState(CartesianIndex(1, 2))), (2, OpenState(CartesianIndex(3, 2))), (3, OpenState(CartesianIndex(3, 3)))], [(1, OpenState(CartesianIndex(2, 3))), (2, OpenState(CartesianIndex(1, 2))), (4, OpenState(CartesianIndex(2, 3))), (4, OpenState(CartesianIndex(3, 2)))], [(1, OpenState(CartesianIndex(2, 2))), (2, OpenState(CartesianIndex(1, 2))), (3, OpenState(CartesianIndex(2, 4))), (4, OpenState(CartesianIndex(2, 2)))], [(2, OpenState(CartesianIndex(1, 2))), (3, OpenState(CartesianIndex(2, 4)))], [(1, OpenState(CartesianIndex(1, 2))), (2, OpenState(CartesianIndex(2, 4))), (2, OpenState(CartesianIndex(3, 4)))], [(1, OpenState(CartesianIndex(1, 2))), (1, OpenState(CartesianIndex(2, 2))), (2, OpenState(CartesianIndex(2, 5))), (3, OpenState(CartesianIndex(3, 4))), (3, OpenState(CartesianIndex(4, 4))), (3, OpenState(CartesianIndex(3, 3)))], [(1, OpenState(CartesianIndex(2, 2))), (2, OpenState(CartesianIndex(1, 2))), (3, OpenState(CartesianIndex(2, 6))), (5, OpenState(CartesianIndex(4, 5))), (5, OpenState(CartesianIndex(5, 4))), (6, OpenState(CartesianIndex(3, 2)))]]
+┌ Debug: Blizzards start: Tuple{Tuple{Int64, Int64}, FacingDir}[((4, 7), RIGHT), ((5, 6), LEFT), ((4, 6), UP), ((2, 5), LEFT), ((2, 4), RIGHT), ((3, 7), LEFT), ((2, 3), LEFT), ((3, 5), UP), ((2, 5), RIGHT), ((4, 4), LEFT), ((3, 4), LEFT), ((4, 4), RIGHT), ((4, 3), RIGHT), ((3, 3), UP), ((5, 3), RIGHT), ((2, 3), DOWN), ((3, 6), UP), ((3, 5), LEFT), ((3, 4), DOWN)]
+└ @ Main C:\dev\advent_of_code\2022\day24\part1.jl:126
+┌ Debug: blizzard BlizzardState(CartesianIndex(4, 7), RIGHT) moves to CartesianIndex(4, 2)
+└ @ Main C:\dev\advent_of_code\2022\day24\part1.jl:132
+┌ Debug: blizzard BlizzardState(CartesianIndex(5, 6), LEFT) moves to CartesianIndex(5, 5)
+└ @ Main C:\dev\advent_of_code\2022\day24\part1.jl:132
+┌ Debug: blizzard BlizzardState(CartesianIndex(4, 6), UP) moves to CartesianIndex(3, 6)
+└ @ Main C:\dev\advent_of_code\2022\day24\part1.jl:132
+┌ Debug: blizzard BlizzardState(CartesianIndex(2, 5), LEFT) moves to CartesianIndex(2, 4)
+└ @ Main C:\dev\advent_of_code\2022\day24\part1.jl:132
+┌ Debug: blizzard BlizzardState(CartesianIndex(2, 4), RIGHT) moves to CartesianIndex(2, 5)
+└ @ Main C:\dev\advent_of_code\2022\day24\part1.jl:132
+┌ Debug: blizzard BlizzardState(CartesianIndex(3, 7), LEFT) moves to CartesianIndex(3, 6)
+└ @ Main C:\dev\advent_of_code\2022\day24\part1.jl:132
+┌ Debug: blizzard BlizzardState(CartesianIndex(2, 3), LEFT) moves to CartesianIndex(2, 2)
+└ @ Main C:\dev\advent_of_code\2022\day24\part1.jl:132
+┌ Debug: blizzard BlizzardState(CartesianIndex(3, 5), UP) moves to CartesianIndex(2, 5)
+└ @ Main C:\dev\advent_of_code\2022\day24\part1.jl:132
+┌ Debug: blizzard BlizzardState(CartesianIndex(2, 5), RIGHT) moves to CartesianIndex(2, 6)
+└ @ Main C:\dev\advent_of_code\2022\day24\part1.jl:132
+┌ Debug: blizzard BlizzardState(CartesianIndex(4, 4), LEFT) moves to CartesianIndex(4, 3)
+└ @ Main C:\dev\advent_of_code\2022\day24\part1.jl:132
+┌ Debug: blizzard BlizzardState(CartesianIndex(3, 4), LEFT) moves to CartesianIndex(3, 3)
+└ @ Main C:\dev\advent_of_code\2022\day24\part1.jl:132
+┌ Debug: blizzard BlizzardState(CartesianIndex(4, 4), RIGHT) moves to CartesianIndex(4, 5)
+└ @ Main C:\dev\advent_of_code\2022\day24\part1.jl:132
+┌ Debug: blizzard BlizzardState(CartesianIndex(4, 3), RIGHT) moves to CartesianIndex(4, 4)
+└ @ Main C:\dev\advent_of_code\2022\day24\part1.jl:132
+┌ Debug: blizzard BlizzardState(CartesianIndex(3, 3), UP) moves to CartesianIndex(2, 3)
+└ @ Main C:\dev\advent_of_code\2022\day24\part1.jl:132
+┌ Debug: blizzard BlizzardState(CartesianIndex(5, 3), RIGHT) moves to CartesianIndex(5, 4)
+└ @ Main C:\dev\advent_of_code\2022\day24\part1.jl:132
+┌ Debug: blizzard BlizzardState(CartesianIndex(2, 3), DOWN) moves to CartesianIndex(3, 3)
+└ @ Main C:\dev\advent_of_code\2022\day24\part1.jl:132
+┌ Debug: blizzard BlizzardState(CartesianIndex(3, 6), UP) moves to CartesianIndex(2, 6)
+└ @ Main C:\dev\advent_of_code\2022\day24\part1.jl:132
+┌ Debug: blizzard BlizzardState(CartesianIndex(3, 5), LEFT) moves to CartesianIndex(3, 4)
+└ @ Main C:\dev\advent_of_code\2022\day24\part1.jl:132
+┌ Debug: blizzard BlizzardState(CartesianIndex(3, 4), DOWN) moves to CartesianIndex(4, 4)
+└ @ Main C:\dev\advent_of_code\2022\day24\part1.jl:132
+┌ Debug: Blizzards end: Tuple{Tuple{Int64, Int64}, FacingDir}[((4, 2), RIGHT), ((5, 5), LEFT), ((3, 6), UP), ((2, 4), LEFT), ((2, 5), RIGHT), ((3, 6), LEFT), ((2, 2), LEFT), ((2, 5), UP), ((2, 6), RIGHT), ((4, 3), LEFT), ((3, 3), LEFT), ((4, 5), RIGHT), ((4, 4), RIGHT), ((2, 3), UP), ((5, 4), RIGHT), ((3, 3), DOWN), ((2, 6), UP), ((3, 4), LEFT), ((4, 4), DOWN)]
+└ @ Main C:\dev\advent_of_code\2022\day24\part1.jl:160
+┌ Debug: looking for valid options for OpenState(CartesianIndex(2, 2))
+└ @ Main C:\dev\advent_of_code\2022\day24\part1.jl:172
+┌ Debug: Can't stand still, a blizzard has arrived
+└ @ Main C:\dev\advent_of_code\2022\day24\part1.jl:181
+┌ Debug: Can move UP
+└ @ Main C:\dev\advent_of_code\2022\day24\part1.jl:198
+┌ Debug: Can't move RIGHT, a blizzard is there
+└ @ Main C:\dev\advent_of_code\2022\day24\part1.jl:208
+┌ Debug: Can move DOWN
+└ @ Main C:\dev\advent_of_code\2022\day24\part1.jl:198
+┌ Debug: Can't move LEFT, a wall is there
+└ @ Main C:\dev\advent_of_code\2022\day24\part1.jl:210
+┌ Debug: looking for valid options for OpenState(CartesianIndex(1, 2))
+└ @ Main C:\dev\advent_of_code\2022\day24\part1.jl:172
+┌ Debug: Can stand still
+└ @ Main C:\dev\advent_of_code\2022\day24\part1.jl:177
+┌ Debug: Can't move RIGHT, a wall is there
+└ @ Main C:\dev\advent_of_code\2022\day24\part1.jl:210
+┌ Debug: Can't move DOWN, a blizzard is there
+└ @ Main C:\dev\advent_of_code\2022\day24\part1.jl:208
+┌ Debug: Can't move LEFT, a wall is there
+└ @ Main C:\dev\advent_of_code\2022\day24\part1.jl:210
+┌ Debug: looking for valid options for OpenState(CartesianIndex(2, 6))
+└ @ Main C:\dev\advent_of_code\2022\day24\part1.jl:172
+┌ Debug: Can't stand still, a blizzard has arrived
+└ @ Main C:\dev\advent_of_code\2022\day24\part1.jl:181
+┌ Debug: Can't move UP, a wall is there
+└ @ Main C:\dev\advent_of_code\2022\day24\part1.jl:210
+┌ Debug: Can move RIGHT
+└ @ Main C:\dev\advent_of_code\2022\day24\part1.jl:198
+┌ Debug: Can't move DOWN, a blizzard is there
+└ @ Main C:\dev\advent_of_code\2022\day24\part1.jl:208
+┌ Debug: Can't move LEFT, a blizzard is there
+└ @ Main C:\dev\advent_of_code\2022\day24\part1.jl:208
+┌ Debug: looking for valid options for OpenState(CartesianIndex(4, 5))
+└ @ Main C:\dev\advent_of_code\2022\day24\part1.jl:172
+┌ Debug: Can't stand still, a blizzard has arrived
+└ @ Main C:\dev\advent_of_code\2022\day24\part1.jl:181
+┌ Debug: Can move UP
+└ @ Main C:\dev\advent_of_code\2022\day24\part1.jl:198
+┌ Debug: Can move RIGHT
+└ @ Main C:\dev\advent_of_code\2022\day24\part1.jl:198
+┌ Debug: Can't move DOWN, a blizzard is there
+└ @ Main C:\dev\advent_of_code\2022\day24\part1.jl:208
+┌ Debug: Can't move LEFT, a blizzard is there
+└ @ Main C:\dev\advent_of_code\2022\day24\part1.jl:208
+┌ Debug: looking for valid options for OpenState(CartesianIndex(5, 4))
+└ @ Main C:\dev\advent_of_code\2022\day24\part1.jl:172
+┌ Debug: Can't stand still, a blizzard has arrived
+└ @ Main C:\dev\advent_of_code\2022\day24\part1.jl:181
+┌ Debug: Can't move UP, a blizzard is there
+└ @ Main C:\dev\advent_of_code\2022\day24\part1.jl:208
+┌ Debug: Can't move RIGHT, a blizzard is there
+└ @ Main C:\dev\advent_of_code\2022\day24\part1.jl:208
+┌ Debug: Can't move DOWN, a wall is there
+└ @ Main C:\dev\advent_of_code\2022\day24\part1.jl:210
+┌ Debug: Can move LEFT
+└ @ Main C:\dev\advent_of_code\2022\day24\part1.jl:198
+┌ Debug: looking for valid options for OpenState(CartesianIndex(3, 2))
+└ @ Main C:\dev\advent_of_code\2022\day24\part1.jl:172
+┌ Debug: Can stand still
+└ @ Main C:\dev\advent_of_code\2022\day24\part1.jl:177
+┌ Debug: Can't move UP, a blizzard is there
+└ @ Main C:\dev\advent_of_code\2022\day24\part1.jl:208
+┌ Debug: Can't move RIGHT, a blizzard is there
+└ @ Main C:\dev\advent_of_code\2022\day24\part1.jl:208
+┌ Debug: Can't move DOWN, a blizzard is there
+└ @ Main C:\dev\advent_of_code\2022\day24\part1.jl:208
+┌ Debug: Can't move LEFT, a wall is there
+└ @ Main C:\dev\advent_of_code\2022\day24\part1.jl:210
+[ Info: 2 paths culled, 6 remain.
+┌ Debug: End of timestep 16: Vector{Tuple{Int64, OpenState}}[[(0, OpenState(CartesianIndex(1, 2)))], [(1, OpenState(CartesianIndex(1, 2))), (1, OpenState(CartesianIndex(2, 2)))], [(1, OpenState(CartesianIndex(2, 2))), (2, OpenState(CartesianIndex(1, 2))), (2, OpenState(CartesianIndex(3, 2)))], [(1, OpenState(CartesianIndex(3, 2))), (2, OpenState(CartesianIndex(1, 2)))], [(2, OpenState(CartesianIndex(1, 2))), (2, OpenState(CartesianIndex(2, 2)))], [(2, OpenState(CartesianIndex(1, 2))), (2, OpenState(CartesianIndex(2, 3)))], [(1, OpenState(CartesianIndex(1, 2))), (2, OpenState(CartesianIndex(2, 4)))], [(1, OpenState(CartesianIndex(1, 2))), (1, OpenState(CartesianIndex(2, 2))), (2, OpenState(CartesianIndex(3, 4)))], [(1, OpenState(CartesianIndex(2, 2))), (2, OpenState(CartesianIndex(1, 2))), (2, OpenState(CartesianIndex(3, 2))), (3, OpenState(CartesianIndex(3, 3)))], [(1, OpenState(CartesianIndex(2, 3))), (2, OpenState(CartesianIndex(1, 2))), (4, OpenState(CartesianIndex(2, 3))), (4, OpenState(CartesianIndex(3, 2)))], [(1, OpenState(CartesianIndex(2, 2))), (2, OpenState(CartesianIndex(1, 2))), (3, OpenState(CartesianIndex(2, 4))), (4, OpenState(CartesianIndex(2, 2)))], [(2, OpenState(CartesianIndex(1, 2))), (3, OpenState(CartesianIndex(2, 4)))], [(1, OpenState(CartesianIndex(1, 2))), (2, OpenState(CartesianIndex(2, 4))), (2, OpenState(CartesianIndex(3, 4)))], [(1, OpenState(CartesianIndex(1, 2))), (1, OpenState(CartesianIndex(2, 2))), (2, OpenState(CartesianIndex(2, 5))), (3, OpenState(CartesianIndex(3, 4))), (3, OpenState(CartesianIndex(4, 4))), (3, OpenState(CartesianIndex(3, 3)))], [(1, OpenState(CartesianIndex(2, 2))), (2, OpenState(CartesianIndex(1, 2))), (3, OpenState(CartesianIndex(2, 6))), (5, OpenState(CartesianIndex(4, 5))), (5, OpenState(CartesianIndex(5, 4))), (6, OpenState(CartesianIndex(3, 2)))], [(1, OpenState(CartesianIndex(3, 2))), (2, OpenState(CartesianIndex(1, 2))), (3, OpenState(CartesianIndex(2, 7))), (4, OpenState(CartesianIndex(3, 5))), (4, OpenState(CartesianIndex(4, 6))), (5, OpenState(CartesianIndex(5, 3)))]]
+└ @ Main C:\dev\advent_of_code\2022\day24\part1.jl:228
+┌ Warning: We found a solution after 16 timesteps!
+└ @ Main C:\dev\advent_of_code\2022\day24\part1.jl:233
+┌ Warning: timestep: 15, Tuple{Int64, OpenState}[(1, OpenState(CartesianIndex(3, 2))), (2, OpenState(CartesianIndex(1, 2))), (3, OpenState(CartesianIndex(2, 7))), (4, OpenState(CartesianIndex(3, 5))), (4, OpenState(CartesianIndex(4, 6))), (5, OpenState(CartesianIndex(5, 3)))]
+└ @ Main C:\dev\advent_of_code\2022\day24\part1.jl:240
+┌ Warning: timestep: 14, Tuple{Int64, OpenState}[(1, OpenState(CartesianIndex(2, 2))), (2, OpenState(CartesianIndex(1, 2))), (3, OpenState(CartesianIndex(2, 6))), (5, OpenState(CartesianIndex(4, 5))), (5, OpenState(CartesianIndex(5, 4))), (6, OpenState(CartesianIndex(3, 2)))]
+└ @ Main C:\dev\advent_of_code\2022\day24\part1.jl:240
+┌ Warning: timestep: 13, Tuple{Int64, OpenState}[(1, OpenState(CartesianIndex(1, 2))), (1, OpenState(CartesianIndex(2, 2))), (2, OpenState(CartesianIndex(2, 5))), (3, OpenState(CartesianIndex(3, 4))), (3, OpenState(CartesianIndex(4, 4))), (3, OpenState(CartesianIndex(3, 3)))]
+└ @ Main C:\dev\advent_of_code\2022\day24\part1.jl:240
+┌ Warning: timestep: 12, Tuple{Int64, OpenState}[(1, OpenState(CartesianIndex(1, 2))), (2, OpenState(CartesianIndex(2, 4))), (2, OpenState(CartesianIndex(3, 4)))]
+└ @ Main C:\dev\advent_of_code\2022\day24\part1.jl:240
+┌ Warning: timestep: 11, Tuple{Int64, OpenState}[(2, OpenState(CartesianIndex(1, 2))), (3, OpenState(CartesianIndex(2, 4)))]
+└ @ Main C:\dev\advent_of_code\2022\day24\part1.jl:240
+┌ Warning: timestep: 10, Tuple{Int64, OpenState}[(1, OpenState(CartesianIndex(2, 2))), (2, OpenState(CartesianIndex(1, 2))), (3, OpenState(CartesianIndex(2, 4))), (4, OpenState(CartesianIndex(2, 2)))]
+└ @ Main C:\dev\advent_of_code\2022\day24\part1.jl:240
+┌ Warning: timestep: 9, Tuple{Int64, OpenState}[(1, OpenState(CartesianIndex(2, 3))), (2, OpenState(CartesianIndex(1, 2))), (4, OpenState(CartesianIndex(2, 3))), (4, OpenState(CartesianIndex(3, 2)))]
+└ @ Main C:\dev\advent_of_code\2022\day24\part1.jl:240
+┌ Warning: timestep: 8, Tuple{Int64, OpenState}[(1, OpenState(CartesianIndex(2, 2))), (2, OpenState(CartesianIndex(1, 2))), (2, OpenState(CartesianIndex(3, 2))), (3, OpenState(CartesianIndex(3, 3)))]
+└ @ Main C:\dev\advent_of_code\2022\day24\part1.jl:240
+┌ Warning: timestep: 7, Tuple{Int64, OpenState}[(1, OpenState(CartesianIndex(1, 2))), (1, OpenState(CartesianIndex(2, 2))), (2, OpenState(CartesianIndex(3, 4)))]
+└ @ Main C:\dev\advent_of_code\2022\day24\part1.jl:240
+┌ Warning: timestep: 6, Tuple{Int64, OpenState}[(1, OpenState(CartesianIndex(1, 2))), (2, OpenState(CartesianIndex(2, 4)))]
+└ @ Main C:\dev\advent_of_code\2022\day24\part1.jl:240
+┌ Warning: timestep: 5, Tuple{Int64, OpenState}[(2, OpenState(CartesianIndex(1, 2))), (2, OpenState(CartesianIndex(2, 3)))]
+└ @ Main C:\dev\advent_of_code\2022\day24\part1.jl:240
+┌ Warning: timestep: 4, Tuple{Int64, OpenState}[(2, OpenState(CartesianIndex(1, 2))), (2, OpenState(CartesianIndex(2, 2)))]
+└ @ Main C:\dev\advent_of_code\2022\day24\part1.jl:240
+┌ Warning: timestep: 3, Tuple{Int64, OpenState}[(1, OpenState(CartesianIndex(3, 2))), (2, OpenState(CartesianIndex(1, 2)))]
+└ @ Main C:\dev\advent_of_code\2022\day24\part1.jl:240
+┌ Warning: timestep: 2, Tuple{Int64, OpenState}[(1, OpenState(CartesianIndex(2, 2))), (2, OpenState(CartesianIndex(1, 2))), (2, OpenState(CartesianIndex(3, 2)))]
+└ @ Main C:\dev\advent_of_code\2022\day24\part1.jl:240
+┌ Warning: timestep: 1, Tuple{Int64, OpenState}[(1, OpenState(CartesianIndex(1, 2))), (1, OpenState(CartesianIndex(2, 2)))]
+└ @ Main C:\dev\advent_of_code\2022\day24\part1.jl:240
+┌ Warning: timestep: 0, Tuple{Int64, OpenState}[(0, OpenState(CartesianIndex(1, 2)))]
+└ @ Main C:\dev\advent_of_code\2022\day24\part1.jl:240
+  0.838252 seconds (1.45 M allocations: 75.619 MiB, 2.87% gc time, 93.46% compilation time)
