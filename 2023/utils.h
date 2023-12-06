@@ -17,7 +17,7 @@ std::string ReadFile(const char *filename) {
 }
 
 // source: https://www.geeksforgeeks.org/cpp-string-to-vector-using-delimiter/#
-std::vector<std::string> split(std::string &str, std::string delim) {
+std::vector<std::string> split(std::string &str, std::string delim, bool skip_multi_delim = false) {
     std::vector<std::string> v;
     if (!str.empty()) {
         int start = 0;
@@ -31,7 +31,9 @@ std::vector<std::string> split(std::string &str, std::string delim) {
             // If found add the substring till that
             // occurrence in the vector
             int length = idx - start;
-            v.push_back(str.substr(start, length));
+            if (length > 0 || !skip_multi_delim)
+                v.push_back(str.substr(start, length));
+
             start += (length + delim.size());
         } while (true);
         v.push_back(str.substr(start));
